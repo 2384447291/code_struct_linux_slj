@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/TestPeriod.dir/test/test.cpp.o -o ../bin/TestPeriod  -Wl,-rpath,/home/roma/Desktop/code_struct_linux_slj/lib /home/roma/Desktop/code_struct_linux_slj/lib/libPeriod.so -lpthread

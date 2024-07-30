@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/TestRobotrunner.dir/test/test.cpp.o -o ../bin/TestRobotrunner  -Wl,-rpath,/home/roma/Desktop/code_struct_linux_slj/lib /home/roma/Desktop/code_struct_linux_slj/lib/libRobotrunner.so /home/roma/Desktop/code_struct_linux_slj/lib/libHardwareCom.so /home/roma/Desktop/code_struct_linux_slj/lib/libPeriod.so -lpthread
