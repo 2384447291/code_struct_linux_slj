@@ -73,15 +73,15 @@ Robotrunner/CMakeFiles/Robotrunner.dir/src/RobotRunner.cpp.o: Robotrunner/CMakeF
 Robotrunner/CMakeFiles/Robotrunner.dir/src/RobotRunner.cpp.o: /home/roma/Desktop/code_struct_linux_slj/Robotrunner/src/RobotRunner.cpp
 Robotrunner/CMakeFiles/Robotrunner.dir/src/RobotRunner.cpp.o: Robotrunner/CMakeFiles/Robotrunner.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roma/Desktop/code_struct_linux_slj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Robotrunner/CMakeFiles/Robotrunner.dir/src/RobotRunner.cpp.o"
-	cd /home/roma/Desktop/code_struct_linux_slj/build/Robotrunner && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Robotrunner/CMakeFiles/Robotrunner.dir/src/RobotRunner.cpp.o -MF CMakeFiles/Robotrunner.dir/src/RobotRunner.cpp.o.d -o CMakeFiles/Robotrunner.dir/src/RobotRunner.cpp.o -c /home/roma/Desktop/code_struct_linux_slj/Robotrunner/src/RobotRunner.cpp
+	cd /home/roma/Desktop/code_struct_linux_slj/build/Robotrunner && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Robotrunner/CMakeFiles/Robotrunner.dir/src/RobotRunner.cpp.o -MF CMakeFiles/Robotrunner.dir/src/RobotRunner.cpp.o.d -o CMakeFiles/Robotrunner.dir/src/RobotRunner.cpp.o -c /home/roma/Desktop/code_struct_linux_slj/Robotrunner/src/RobotRunner.cpp
 
 Robotrunner/CMakeFiles/Robotrunner.dir/src/RobotRunner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Robotrunner.dir/src/RobotRunner.cpp.i"
-	cd /home/roma/Desktop/code_struct_linux_slj/build/Robotrunner && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roma/Desktop/code_struct_linux_slj/Robotrunner/src/RobotRunner.cpp > CMakeFiles/Robotrunner.dir/src/RobotRunner.cpp.i
+	cd /home/roma/Desktop/code_struct_linux_slj/build/Robotrunner && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roma/Desktop/code_struct_linux_slj/Robotrunner/src/RobotRunner.cpp > CMakeFiles/Robotrunner.dir/src/RobotRunner.cpp.i
 
 Robotrunner/CMakeFiles/Robotrunner.dir/src/RobotRunner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Robotrunner.dir/src/RobotRunner.cpp.s"
-	cd /home/roma/Desktop/code_struct_linux_slj/build/Robotrunner && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roma/Desktop/code_struct_linux_slj/Robotrunner/src/RobotRunner.cpp -o CMakeFiles/Robotrunner.dir/src/RobotRunner.cpp.s
+	cd /home/roma/Desktop/code_struct_linux_slj/build/Robotrunner && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roma/Desktop/code_struct_linux_slj/Robotrunner/src/RobotRunner.cpp -o CMakeFiles/Robotrunner.dir/src/RobotRunner.cpp.s
 
 # Object files for target Robotrunner
 Robotrunner_OBJECTS = \

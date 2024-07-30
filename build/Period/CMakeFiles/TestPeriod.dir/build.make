@@ -73,15 +73,15 @@ Period/CMakeFiles/TestPeriod.dir/test/test.cpp.o: Period/CMakeFiles/TestPeriod.d
 Period/CMakeFiles/TestPeriod.dir/test/test.cpp.o: /home/roma/Desktop/code_struct_linux_slj/Period/test/test.cpp
 Period/CMakeFiles/TestPeriod.dir/test/test.cpp.o: Period/CMakeFiles/TestPeriod.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roma/Desktop/code_struct_linux_slj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Period/CMakeFiles/TestPeriod.dir/test/test.cpp.o"
-	cd /home/roma/Desktop/code_struct_linux_slj/build/Period && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Period/CMakeFiles/TestPeriod.dir/test/test.cpp.o -MF CMakeFiles/TestPeriod.dir/test/test.cpp.o.d -o CMakeFiles/TestPeriod.dir/test/test.cpp.o -c /home/roma/Desktop/code_struct_linux_slj/Period/test/test.cpp
+	cd /home/roma/Desktop/code_struct_linux_slj/build/Period && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Period/CMakeFiles/TestPeriod.dir/test/test.cpp.o -MF CMakeFiles/TestPeriod.dir/test/test.cpp.o.d -o CMakeFiles/TestPeriod.dir/test/test.cpp.o -c /home/roma/Desktop/code_struct_linux_slj/Period/test/test.cpp
 
 Period/CMakeFiles/TestPeriod.dir/test/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TestPeriod.dir/test/test.cpp.i"
-	cd /home/roma/Desktop/code_struct_linux_slj/build/Period && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roma/Desktop/code_struct_linux_slj/Period/test/test.cpp > CMakeFiles/TestPeriod.dir/test/test.cpp.i
+	cd /home/roma/Desktop/code_struct_linux_slj/build/Period && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roma/Desktop/code_struct_linux_slj/Period/test/test.cpp > CMakeFiles/TestPeriod.dir/test/test.cpp.i
 
 Period/CMakeFiles/TestPeriod.dir/test/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TestPeriod.dir/test/test.cpp.s"
-	cd /home/roma/Desktop/code_struct_linux_slj/build/Period && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roma/Desktop/code_struct_linux_slj/Period/test/test.cpp -o CMakeFiles/TestPeriod.dir/test/test.cpp.s
+	cd /home/roma/Desktop/code_struct_linux_slj/build/Period && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roma/Desktop/code_struct_linux_slj/Period/test/test.cpp -o CMakeFiles/TestPeriod.dir/test/test.cpp.s
 
 # Object files for target TestPeriod
 TestPeriod_OBJECTS = \

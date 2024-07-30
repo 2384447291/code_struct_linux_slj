@@ -73,15 +73,15 @@ CMakeFiles/code_struct.dir/main.cpp.o: CMakeFiles/code_struct.dir/flags.make
 CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/main.cpp
 CMakeFiles/code_struct.dir/main.cpp.o: CMakeFiles/code_struct.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roma/Desktop/code_struct_linux_slj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/code_struct.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/code_struct.dir/main.cpp.o -MF CMakeFiles/code_struct.dir/main.cpp.o.d -o CMakeFiles/code_struct.dir/main.cpp.o -c /home/roma/Desktop/code_struct_linux_slj/main.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/code_struct.dir/main.cpp.o -MF CMakeFiles/code_struct.dir/main.cpp.o.d -o CMakeFiles/code_struct.dir/main.cpp.o -c /home/roma/Desktop/code_struct_linux_slj/main.cpp
 
 CMakeFiles/code_struct.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/code_struct.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roma/Desktop/code_struct_linux_slj/main.cpp > CMakeFiles/code_struct.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roma/Desktop/code_struct_linux_slj/main.cpp > CMakeFiles/code_struct.dir/main.cpp.i
 
 CMakeFiles/code_struct.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/code_struct.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roma/Desktop/code_struct_linux_slj/main.cpp -o CMakeFiles/code_struct.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roma/Desktop/code_struct_linux_slj/main.cpp -o CMakeFiles/code_struct.dir/main.cpp.s
 
 # Object files for target code_struct
 code_struct_OBJECTS = \

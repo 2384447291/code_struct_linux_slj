@@ -125,16 +125,16 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 2,
-			"id" : "Robotrunner::@463626be71b5ecc85041"
-		},
-		{
 			"backtrace" : 4,
 			"id" : "Period::@4c4c2ea81c275265ca03"
 		},
 		{
 			"backtrace" : 3,
 			"id" : "HardwareCom::@f29bc889d910cc10811e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Robotrunner::@463626be71b5ecc85041"
 		}
 	],
 	"id" : "TestRobotrunner::@463626be71b5ecc85041",

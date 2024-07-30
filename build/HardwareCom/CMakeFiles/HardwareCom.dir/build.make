@@ -73,29 +73,29 @@ HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: HardwareCom/
 HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/roma/Desktop/code_struct_linux_slj/HardwareCom/src/UartCommunication.cpp
 HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: HardwareCom/CMakeFiles/HardwareCom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roma/Desktop/code_struct_linux_slj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o"
-	cd /home/roma/Desktop/code_struct_linux_slj/build/HardwareCom && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o -MF CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o.d -o CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o -c /home/roma/Desktop/code_struct_linux_slj/HardwareCom/src/UartCommunication.cpp
+	cd /home/roma/Desktop/code_struct_linux_slj/build/HardwareCom && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o -MF CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o.d -o CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o -c /home/roma/Desktop/code_struct_linux_slj/HardwareCom/src/UartCommunication.cpp
 
 HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.i"
-	cd /home/roma/Desktop/code_struct_linux_slj/build/HardwareCom && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roma/Desktop/code_struct_linux_slj/HardwareCom/src/UartCommunication.cpp > CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.i
+	cd /home/roma/Desktop/code_struct_linux_slj/build/HardwareCom && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roma/Desktop/code_struct_linux_slj/HardwareCom/src/UartCommunication.cpp > CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.i
 
 HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.s"
-	cd /home/roma/Desktop/code_struct_linux_slj/build/HardwareCom && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roma/Desktop/code_struct_linux_slj/HardwareCom/src/UartCommunication.cpp -o CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.s
+	cd /home/roma/Desktop/code_struct_linux_slj/build/HardwareCom && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roma/Desktop/code_struct_linux_slj/HardwareCom/src/UartCommunication.cpp -o CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.s
 
 HardwareCom/CMakeFiles/HardwareCom.dir/src/DM_USB2CAN.cpp.o: HardwareCom/CMakeFiles/HardwareCom.dir/flags.make
 HardwareCom/CMakeFiles/HardwareCom.dir/src/DM_USB2CAN.cpp.o: /home/roma/Desktop/code_struct_linux_slj/HardwareCom/src/DM_USB2CAN.cpp
 HardwareCom/CMakeFiles/HardwareCom.dir/src/DM_USB2CAN.cpp.o: HardwareCom/CMakeFiles/HardwareCom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roma/Desktop/code_struct_linux_slj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object HardwareCom/CMakeFiles/HardwareCom.dir/src/DM_USB2CAN.cpp.o"
-	cd /home/roma/Desktop/code_struct_linux_slj/build/HardwareCom && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT HardwareCom/CMakeFiles/HardwareCom.dir/src/DM_USB2CAN.cpp.o -MF CMakeFiles/HardwareCom.dir/src/DM_USB2CAN.cpp.o.d -o CMakeFiles/HardwareCom.dir/src/DM_USB2CAN.cpp.o -c /home/roma/Desktop/code_struct_linux_slj/HardwareCom/src/DM_USB2CAN.cpp
+	cd /home/roma/Desktop/code_struct_linux_slj/build/HardwareCom && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT HardwareCom/CMakeFiles/HardwareCom.dir/src/DM_USB2CAN.cpp.o -MF CMakeFiles/HardwareCom.dir/src/DM_USB2CAN.cpp.o.d -o CMakeFiles/HardwareCom.dir/src/DM_USB2CAN.cpp.o -c /home/roma/Desktop/code_struct_linux_slj/HardwareCom/src/DM_USB2CAN.cpp
 
 HardwareCom/CMakeFiles/HardwareCom.dir/src/DM_USB2CAN.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HardwareCom.dir/src/DM_USB2CAN.cpp.i"
-	cd /home/roma/Desktop/code_struct_linux_slj/build/HardwareCom && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roma/Desktop/code_struct_linux_slj/HardwareCom/src/DM_USB2CAN.cpp > CMakeFiles/HardwareCom.dir/src/DM_USB2CAN.cpp.i
+	cd /home/roma/Desktop/code_struct_linux_slj/build/HardwareCom && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roma/Desktop/code_struct_linux_slj/HardwareCom/src/DM_USB2CAN.cpp > CMakeFiles/HardwareCom.dir/src/DM_USB2CAN.cpp.i
 
 HardwareCom/CMakeFiles/HardwareCom.dir/src/DM_USB2CAN.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HardwareCom.dir/src/DM_USB2CAN.cpp.s"
-	cd /home/roma/Desktop/code_struct_linux_slj/build/HardwareCom && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roma/Desktop/code_struct_linux_slj/HardwareCom/src/DM_USB2CAN.cpp -o CMakeFiles/HardwareCom.dir/src/DM_USB2CAN.cpp.s
+	cd /home/roma/Desktop/code_struct_linux_slj/build/HardwareCom && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roma/Desktop/code_struct_linux_slj/HardwareCom/src/DM_USB2CAN.cpp -o CMakeFiles/HardwareCom.dir/src/DM_USB2CAN.cpp.s
 
 # Object files for target HardwareCom
 HardwareCom_OBJECTS = \

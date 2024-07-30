@@ -73,15 +73,15 @@ Period/CMakeFiles/Period.dir/src/PeriodicTask.cpp.o: Period/CMakeFiles/Period.di
 Period/CMakeFiles/Period.dir/src/PeriodicTask.cpp.o: /home/roma/Desktop/code_struct_linux_slj/Period/src/PeriodicTask.cpp
 Period/CMakeFiles/Period.dir/src/PeriodicTask.cpp.o: Period/CMakeFiles/Period.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roma/Desktop/code_struct_linux_slj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Period/CMakeFiles/Period.dir/src/PeriodicTask.cpp.o"
-	cd /home/roma/Desktop/code_struct_linux_slj/build/Period && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Period/CMakeFiles/Period.dir/src/PeriodicTask.cpp.o -MF CMakeFiles/Period.dir/src/PeriodicTask.cpp.o.d -o CMakeFiles/Period.dir/src/PeriodicTask.cpp.o -c /home/roma/Desktop/code_struct_linux_slj/Period/src/PeriodicTask.cpp
+	cd /home/roma/Desktop/code_struct_linux_slj/build/Period && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Period/CMakeFiles/Period.dir/src/PeriodicTask.cpp.o -MF CMakeFiles/Period.dir/src/PeriodicTask.cpp.o.d -o CMakeFiles/Period.dir/src/PeriodicTask.cpp.o -c /home/roma/Desktop/code_struct_linux_slj/Period/src/PeriodicTask.cpp
 
 Period/CMakeFiles/Period.dir/src/PeriodicTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Period.dir/src/PeriodicTask.cpp.i"
-	cd /home/roma/Desktop/code_struct_linux_slj/build/Period && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roma/Desktop/code_struct_linux_slj/Period/src/PeriodicTask.cpp > CMakeFiles/Period.dir/src/PeriodicTask.cpp.i
+	cd /home/roma/Desktop/code_struct_linux_slj/build/Period && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roma/Desktop/code_struct_linux_slj/Period/src/PeriodicTask.cpp > CMakeFiles/Period.dir/src/PeriodicTask.cpp.i
 
 Period/CMakeFiles/Period.dir/src/PeriodicTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Period.dir/src/PeriodicTask.cpp.s"
-	cd /home/roma/Desktop/code_struct_linux_slj/build/Period && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roma/Desktop/code_struct_linux_slj/Period/src/PeriodicTask.cpp -o CMakeFiles/Period.dir/src/PeriodicTask.cpp.s
+	cd /home/roma/Desktop/code_struct_linux_slj/build/Period && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roma/Desktop/code_struct_linux_slj/Period/src/PeriodicTask.cpp -o CMakeFiles/Period.dir/src/PeriodicTask.cpp.s
 
 # Object files for target Period
 Period_OBJECTS = \
