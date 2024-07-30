@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = /home/roma/Desktop/code_struct_linux_slj/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/code_struct.dir/all
 all: Period/all
 all: HardwareCom/all
 all: Robotrunner/all
@@ -75,6 +76,7 @@ preinstall: Robotrunner/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/code_struct.dir/clean
 clean: Period/clean
 clean: HardwareCom/clean
 clean: Robotrunner/clean
@@ -130,6 +132,34 @@ Robotrunner/preinstall:
 Robotrunner/clean: Robotrunner/CMakeFiles/Robotrunner.dir/clean
 Robotrunner/clean: Robotrunner/CMakeFiles/TestRobotrunner.dir/clean
 .PHONY : Robotrunner/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/code_struct.dir
+
+# All Build rule for target.
+CMakeFiles/code_struct.dir/all: Robotrunner/CMakeFiles/Robotrunner.dir/all
+CMakeFiles/code_struct.dir/all: Period/CMakeFiles/Period.dir/all
+CMakeFiles/code_struct.dir/all: HardwareCom/CMakeFiles/HardwareCom.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code_struct.dir/build.make CMakeFiles/code_struct.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code_struct.dir/build.make CMakeFiles/code_struct.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/roma/Desktop/code_struct_linux_slj/build/CMakeFiles --progress-num=14,15 "Built target code_struct"
+.PHONY : CMakeFiles/code_struct.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/code_struct.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/roma/Desktop/code_struct_linux_slj/build/CMakeFiles 9
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/code_struct.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/roma/Desktop/code_struct_linux_slj/build/CMakeFiles 0
+.PHONY : CMakeFiles/code_struct.dir/rule
+
+# Convenience name for target.
+code_struct: CMakeFiles/code_struct.dir/rule
+.PHONY : code_struct
+
+# clean rule for target.
+CMakeFiles/code_struct.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code_struct.dir/build.make CMakeFiles/code_struct.dir/clean
+.PHONY : CMakeFiles/code_struct.dir/clean
 
 #=============================================================================
 # Target rules for target Period/CMakeFiles/Period.dir
@@ -266,9 +296,9 @@ Robotrunner/CMakeFiles/Robotrunner.dir/clean:
 # Target rules for target Robotrunner/CMakeFiles/TestRobotrunner.dir
 
 # All Build rule for target.
+Robotrunner/CMakeFiles/TestRobotrunner.dir/all: Robotrunner/CMakeFiles/Robotrunner.dir/all
 Robotrunner/CMakeFiles/TestRobotrunner.dir/all: Period/CMakeFiles/Period.dir/all
 Robotrunner/CMakeFiles/TestRobotrunner.dir/all: HardwareCom/CMakeFiles/HardwareCom.dir/all
-Robotrunner/CMakeFiles/TestRobotrunner.dir/all: Robotrunner/CMakeFiles/Robotrunner.dir/all
 	$(MAKE) $(MAKESILENT) -f Robotrunner/CMakeFiles/TestRobotrunner.dir/build.make Robotrunner/CMakeFiles/TestRobotrunner.dir/depend
 	$(MAKE) $(MAKESILENT) -f Robotrunner/CMakeFiles/TestRobotrunner.dir/build.make Robotrunner/CMakeFiles/TestRobotrunner.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/roma/Desktop/code_struct_linux_slj/build/CMakeFiles --progress-num=12,13 "Built target TestRobotrunner"

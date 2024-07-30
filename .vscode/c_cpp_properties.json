@@ -3,7 +3,7 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**",
+                "${workspaceFolder}/",
                 "${workspaceFolder}/Period/include",
                 "${workspaceFolder}/HardwareCom/include",
                 "${workspaceFolder}/Robotrunner/include",

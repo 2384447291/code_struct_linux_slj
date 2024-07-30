@@ -1,3 +1,4 @@
+/home/roma/Desktop/code_struct_linux_slj/build/CMakeFiles/code_struct.dir
 /home/roma/Desktop/code_struct_linux_slj/build/CMakeFiles/edit_cache.dir
 /home/roma/Desktop/code_struct_linux_slj/build/CMakeFiles/rebuild_cache.dir
 /home/roma/Desktop/code_struct_linux_slj/build/Period/CMakeFiles/Period.dir

@@ -12,17 +12,21 @@
 						2,
 						3
 					],
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
 					},
 					"projectIndex" : 0,
-					"source" : "."
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						6
+					]
 				},
 				{
 					"build" : "Period",
-					"jsonFile" : "directory-Period-Debug-497cc7655f1005cdedb4.json",
+					"jsonFile" : "directory-Period-497cc7655f1005cdedb4.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -38,7 +42,7 @@
 				},
 				{
 					"build" : "HardwareCom",
-					"jsonFile" : "directory-HardwareCom-Debug-a7b04e8ab10afea8d4fc.json",
+					"jsonFile" : "directory-HardwareCom-a7b04e8ab10afea8d4fc.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -54,7 +58,7 @@
 				},
 				{
 					"build" : "Robotrunner",
-					"jsonFile" : "directory-Robotrunner-Debug-f0e16ec478a98aca11f9.json",
+					"jsonFile" : "directory-Robotrunner-f0e16ec478a98aca11f9.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -69,7 +73,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "",
 			"projects" : 
 			[
 				{
@@ -83,7 +87,11 @@
 					[
 						0
 					],
-					"name" : "code_struct"
+					"name" : "code_struct",
+					"targetIndexes" : 
+					[
+						6
+					]
 				},
 				{
 					"directoryIndexes" : 
@@ -130,44 +138,51 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "HardwareCom::@f29bc889d910cc10811e",
-					"jsonFile" : "target-HardwareCom-Debug-a66d317083fbe811240e.json",
+					"jsonFile" : "target-HardwareCom-c63294d35d4d37d926c3.json",
 					"name" : "HardwareCom",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "Period::@4c4c2ea81c275265ca03",
-					"jsonFile" : "target-Period-Debug-11b0697e78c5c71ea101.json",
+					"jsonFile" : "target-Period-7a04b29462c9e0157bcd.json",
 					"name" : "Period",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "Robotrunner::@463626be71b5ecc85041",
-					"jsonFile" : "target-Robotrunner-Debug-8d4b5d9818e7ae114287.json",
+					"jsonFile" : "target-Robotrunner-b412fcc90be1de9288ff.json",
 					"name" : "Robotrunner",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "TestHardware::@f29bc889d910cc10811e",
-					"jsonFile" : "target-TestHardware-Debug-72b1347ff523a3b97b05.json",
+					"jsonFile" : "target-TestHardware-060a2f3d5773ae8cf0c3.json",
 					"name" : "TestHardware",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "TestPeriod::@4c4c2ea81c275265ca03",
-					"jsonFile" : "target-TestPeriod-Debug-78e7421c193a2fb492c0.json",
+					"jsonFile" : "target-TestPeriod-c0a8b79915ac8f7491b6.json",
 					"name" : "TestPeriod",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "TestRobotrunner::@463626be71b5ecc85041",
-					"jsonFile" : "target-TestRobotrunner-Debug-c4341736771e3ec88d3f.json",
+					"jsonFile" : "target-TestRobotrunner-ef119f1663a8ad27ea90.json",
 					"name" : "TestRobotrunner",
 					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "code_struct::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-code_struct-b21bc48d97452a8bcfa6.json",
+					"name" : "code_struct",
+					"projectIndex" : 0
 				}
 			]
 		}

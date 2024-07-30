@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/home/roma/Desktop/code_struct_linux_slj/lib/libRobotrunner.so"
+			"path" : "/home/roma/Desktop/code_struct_linux_slj/lib/libPeriod.so"
 		}
 	],
 	"backtrace" : 1,
@@ -16,7 +16,7 @@
 		],
 		"files" : 
 		[
-			"Robotrunner/CMakeLists.txt"
+			"Period/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -26,37 +26,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 14,
+				"line" : 12,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 20,
+				"line" : 18,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
 				"line" : 6,
-				"parent" : 0
-			},
-			{
-				"command" : 2,
-				"file" : 0,
-				"line" : 7,
-				"parent" : 0
-			},
-			{
-				"command" : 2,
-				"file" : 0,
-				"line" : 8,
-				"parent" : 0
-			},
-			{
-				"command" : 2,
-				"file" : 0,
-				"line" : 9,
 				"parent" : 0
 			}
 		]
@@ -67,32 +49,20 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++20 -fPIC"
+					"fragment" : "-std=gnu++20 -fPIC"
 				}
 			],
 			"defines" : 
 			[
 				{
-					"define" : "Robotrunner_EXPORTS"
+					"define" : "Period_EXPORTS"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/home/roma/Desktop/code_struct_linux_slj/Robotrunner/../HardwareCom/include"
-				},
-				{
-					"backtrace" : 4,
-					"path" : "/home/roma/Desktop/code_struct_linux_slj/Robotrunner/../Period/include"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "/home/roma/Desktop/code_struct_linux_slj/Robotrunner/../data_struct"
-				},
-				{
-					"backtrace" : 6,
-					"path" : "/home/roma/Desktop/code_struct_linux_slj/Robotrunner/./include"
+					"path" : "/home/roma/Desktop/code_struct_linux_slj/Period/./include"
 				}
 			],
 			"language" : "CXX",
@@ -110,7 +80,7 @@
 			]
 		}
 	],
-	"id" : "Robotrunner::@463626be71b5ecc85041",
+	"id" : "Period::@4c4c2ea81c275265ca03",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -127,12 +97,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Robotrunner",
-	"nameOnDisk" : "libRobotrunner.so",
+	"name" : "Period",
+	"nameOnDisk" : "libPeriod.so",
 	"paths" : 
 	{
-		"build" : "Robotrunner",
-		"source" : "Robotrunner"
+		"build" : "Period",
+		"source" : "Period"
 	},
 	"sourceGroups" : 
 	[
@@ -149,7 +119,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Robotrunner/src/RobotRunner.cpp",
+			"path" : "Period/src/PeriodicTask.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

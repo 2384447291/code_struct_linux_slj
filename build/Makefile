@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named code_struct
+
+# Build rule for target.
+code_struct: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code_struct
+.PHONY : code_struct
+
+# fast build rule for target.
+code_struct/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code_struct.dir/build.make CMakeFiles/code_struct.dir/build
+.PHONY : code_struct/fast
+
+#=============================================================================
 # Target rules for targets named Period
 
 # Build rule for target.
@@ -194,6 +207,30 @@ TestRobotrunner/fast:
 	$(MAKE) $(MAKESILENT) -f Robotrunner/CMakeFiles/TestRobotrunner.dir/build.make Robotrunner/CMakeFiles/TestRobotrunner.dir/build
 .PHONY : TestRobotrunner/fast
 
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code_struct.dir/build.make CMakeFiles/code_struct.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code_struct.dir/build.make CMakeFiles/code_struct.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code_struct.dir/build.make CMakeFiles/code_struct.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -208,6 +245,10 @@ help:
 	@echo "... TestHardware"
 	@echo "... TestPeriod"
 	@echo "... TestRobotrunner"
+	@echo "... code_struct"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
