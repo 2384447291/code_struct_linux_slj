@@ -1,1 +1,1 @@
-/usr/bin/g++ CMakeFiles/TestHardware.dir/test/test.cpp.o -o ../bin/TestHardware  -Wl,-rpath,/home/roma/Desktop/code_struct_linux_slj/lib /home/roma/Desktop/code_struct_linux_slj/lib/libHardwareCom.so /home/roma/Desktop/code_struct_linux_slj/lib/libPeriod.so -lpthread
+/usr/bin/c++ CMakeFiles/TestHardware.dir/test/test.cpp.o -o ../bin/TestHardware  -Wl,-rpath,/home/roma/Desktop/code_struct_linux_slj/lib /home/roma/Desktop/code_struct_linux_slj/lib/libHardwareCom.so /home/roma/Desktop/code_struct_linux_slj/lib/libPeriod.so -lpthread

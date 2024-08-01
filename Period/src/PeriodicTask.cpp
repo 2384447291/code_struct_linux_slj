@@ -12,10 +12,10 @@ PeriodicTask::PeriodicTask(float period,std::string name,uint8_t prefer_cpu, int
     {
       PeriodicTaskManager::Instance()->addTask(this);
       //设定优先级
-      // if(priority <=2)
-      // {
-      //   set_schedule_arg(policy,priority);
-      // }
+      if(priority <=2)
+      {
+        set_schedule_arg(policy,priority);
+      }
     }
 
 void PeriodicTask::start() {
@@ -131,7 +131,9 @@ void PeriodicTask::set_schedule_arg(int policy, int priority)
 }
 
 
-PeriodicTaskManager::~PeriodicTaskManager() {}
+PeriodicTaskManager::~PeriodicTaskManager() {
+  stopAll();
+}
 
 
 void PeriodicTaskManager::addTask(PeriodicTask* task) {

@@ -42,19 +42,54 @@ void RobotRunner::Print_Module()
         }
     }
 }
-void RobotRunner::run()
+
+BaseModule* RobotRunner::Get_Module(std::string _name)
 {
-    //按顺序执行
     for(int i = 0; i < MT_LENGTH; ++i)
     {
         for(int j = 0; j < Module_table[i].size(); ++j)
         {
-            BaseModule* _moudule = Module_table[i][j];
-            _moudule->run();
+            if(Module_table[i][j]->m_name == _name)
+            {
+                return Module_table[i][j];
+            }
         }
     }
+    std::cout << stderr << "no moodule named "<< _name << std::endl;
+    Print_Module();
+    return nullptr;
 }
 
+RobotController* RobotRunner::Get_Controller(std::string _name)
+{
+    return Robot_controller_hashmap[_name];
+}
+
+Robot_part* RobotRunner::Get_RobotPart(std::string _name)
+{
+    return Robot_part_hashmap[_name];
+}
+void RobotRunner::run()
+{
+    //按顺序执行
+    // for(int i = 0; i < MT_LENGTH; ++i)
+    // {
+    //     for(int j = 0; j < Module_table[i].size(); ++j)
+    //     {
+    //         BaseModule* _moudule = Module_table[i][j];
+    //         _moudule->run();
+    //     }
+    // }
+    BaseModule* _moudule = Module_table[1][0];
+    // _moudule->run();
+    // _moudule->run();
+    // _moudule = Module_table[2][1];
+    // _moudule->run();
+    _moudule = Module_table[2][1];
+    _moudule->run();
+    _moudule = Module_table[2][2];
+    _moudule->run();
+}
 void RobotRunner::init()
 {
     //遍历Robot_controller_hashmap

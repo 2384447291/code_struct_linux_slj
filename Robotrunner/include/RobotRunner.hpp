@@ -5,10 +5,13 @@
 #include <unordered_map>
 #include <vector>
 #include "PeriodicTask.hpp"
+#include "Timer.h"
+#include <chrono>
 
 class Robot_part;
 class BaseModule;
 class RobotController;
+
 class RobotRunner : public PeriodicTask{
     public:    
         static RobotRunner* Instance(){ return instance; }
@@ -30,6 +33,10 @@ class RobotRunner : public PeriodicTask{
         void Add_RobotPart(Robot_part* _part);
         void Add_Module(BaseModule* _function);
         void Add_Controller(RobotController* _controller);
+
+        BaseModule* Get_Module(std::string _name);
+        RobotController* Get_Controller(std::string _name);
+        Robot_part* Get_RobotPart(std::string _name);
 
         void Print_RobotPart();
         void Print_Module();
@@ -59,8 +66,22 @@ class BaseModule {
 public:
     BaseModule(ModuleType _type, std::string _name):m_type{_type},m_name{_name}{}
     virtual void run() = 0;
+
+    virtual uint32_t getCallCount() const = 0;
+    virtual double getAverageTime() const = 0;
+    virtual double getAverageTimeInMs() const = 0;
+    virtual double getAverageTimeInus() const = 0;
+    virtual long getAverageTimeInns() const = 0;
+
     ModuleType m_type;
     std::string m_name;
+
+    double m_totalTime = 0;
+
+    int64_t m_calltime = 0;
+    uint32_t m_callCountS = 0;
+    uint32_t m_callCount = 0;
+    uint64_t all_callCount = 0;
 };
 
 //传感类+执行类的函数为robotpart自己的函数，不需要进行外部的robotpart之间的交互,T一般为robotpart的子类
@@ -75,8 +96,40 @@ public:
     {
         RobotRunner::Instance()->Add_Module(this);
     }
-    void run() override { (m_pOwner->*m_function)(); }
-    // 其他成员和方法
+    void run() override { 
+        if (Gloabl_Timer::hasElapsedMs(1000, m_calltime))
+        {
+            m_callCountS = m_callCount;
+            m_callCount = 0;
+            std::cout << std::dec << m_name << " " << m_totalTime * 1000000000/all_callCount << std::endl;
+        }
+        auto start = std::chrono::high_resolution_clock::now();
+        (m_pOwner->*m_function)(); 
+        auto end = std::chrono::high_resolution_clock::now();
+        std::chrono::duration<double> elapsed = end - start;
+        m_totalTime += elapsed.count();
+        m_callCount++;
+        all_callCount++;
+        }
+
+    uint32_t getCallCount() const {
+        return m_callCountS;
+    }
+
+    double getAverageTime() const {
+        return all_callCount > 0 ? m_totalTime / all_callCount : 0;
+    }
+
+    double getAverageTimeInMs() const {
+        return m_callCount > 0 ? (m_totalTime * 1000) / all_callCount : 0;
+    }
+
+    double getAverageTimeInus() const {
+        return m_callCount > 0 ? (m_totalTime * 1000000) / all_callCount : 0;
+    }
+    long getAverageTimeInns() const {
+        return m_callCount > 0 ? static_cast<long>((m_totalTime * 1000000000)/all_callCount) : 0;
+    }
 private:
     T* m_pOwner;
     void (T::*m_function)();

@@ -1,3 +1,5 @@
+#ifndef IRISTAC_HPP
+#define IRISTAC_HPP
 #include "DisplacementStageController.hpp"
 class IrisTac : public RobotRunner
 {
@@ -5,3 +7,5 @@ class IrisTac : public RobotRunner
         IrisTac():RobotRunner(this){}
         DisplacementStageController m_DisplacementStageController;
 };
+
+#endif

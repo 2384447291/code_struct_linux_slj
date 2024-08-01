@@ -4,6 +4,11 @@
 #include "RobotRunner.hpp"
 #include "DMmotor.hpp"
 #include "Timer.h"
+#include "Math_Tool.hpp"
+
+#define Z_MAX 150
+#define Z_MIN 0
+
 //右手坐标系
 enum orbit_type{
     x = 0,
@@ -15,12 +20,13 @@ enum init_state{
     set,
     waiting,
     zero,
+    reset,
 };
 class DisplacementStageController : public RobotController
 {
     public:
         DMmotor m_OrbitMotor[3];
-
+        float m_position_set[3];
         bool m_Is_motor_init[3] = {false, false, false};
         init_state m_init_state[3] = {set,set,set};
         double stuck_time[3] = {0, 0, 0};
@@ -43,7 +49,7 @@ class DisplacementStageController : public RobotController
             {
                 m_OrbitMotor[i].Connectmotor(i+1,MotorMode::RELAX_MODE,massage_ptr,DMMode::MIT);
                 m_OrbitMotor[i].control_k_d = 1.0f;
-                m_OrbitMotor[i].control_k_p = 5.0f;
+                m_OrbitMotor[i].control_k_p = 10.0f;
             }
         };
 
@@ -52,12 +58,9 @@ class DisplacementStageController : public RobotController
         // if(m_Is_motor_init[x]&&m_Is_motor_init[y]&&m_Is_motor_init[z])
         if(m_Is_motor_init[z])
         {
-            m_OrbitMotor[z].m_MotorMode = MotorMode::POS_VEC_MODE;
-            m_OrbitMotor[z].control_k_d = 1.0f;
-            m_OrbitMotor[z].control_k_p = 5.0f;
-            m_OrbitMotor[z].control_p_des = -50.0f;
-            m_OrbitMotor[z].control_v_des = 20.0f;
-            m_OrbitMotor[z].control_torque = 0.0;            
+            // m_OrbitMotor[z].m_MotorMode = MotorMode::MIT_MODE;
+            m_position_set[z] = clamp(m_position_set[z],(float)Z_MIN,(float)Z_MAX);
+            m_OrbitMotor[z].control_p_des =-m_position_set[z];
         }
         else
         {
@@ -87,7 +90,7 @@ class DisplacementStageController : public RobotController
                     {
                         stuck_time[i] = Gloabl_Timer::Instance()->getSeconds();
                     }
-                    if(Gloabl_Timer::Instance()->getSeconds() - stuck_time[i] > 0.1)
+                    if(Gloabl_Timer::Instance()->getSeconds() - stuck_time[i] > 0.15)
                     {
                         m_init_state[i] = zero;
                     }
@@ -95,12 +98,24 @@ class DisplacementStageController : public RobotController
                 else if(m_init_state[i] == zero)
                 {
                     m_OrbitMotor[i].save_zero();
+                    if(abs(m_OrbitMotor[i].feedback_pos) <0.01)
+                    {
+                        m_init_state[i] = reset;
+                    }
+                }
+                else if (m_init_state[i] == reset)
+                {
+                    m_OrbitMotor[i].m_MotorMode = MotorMode::POS_VEC_MODE;
                     m_OrbitMotor[i].control_k_d = 1.0f;
-                    m_OrbitMotor[i].control_k_p = 5.0f;
-                    m_OrbitMotor[i].control_p_des = 0;
-                    m_OrbitMotor[i].control_v_des = 0;
+                    m_OrbitMotor[i].control_k_p = 10.0f;
+                    m_OrbitMotor[i].control_p_des = -20.0f;
+                    m_OrbitMotor[i].control_v_des = 20.0f;
                     m_OrbitMotor[i].control_torque = 0.0;
-                    m_Is_motor_init[i] = true;
+                    m_position_set[i] = 20.0f;
+                    if(abs(m_OrbitMotor[i].feedback_pos-m_OrbitMotor[i].control_p_des)<0.05f) 
+                    {
+                        m_Is_motor_init[i] = true;
+                    } 
                 }
             }
         }

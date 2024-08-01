@@ -10,14 +10,14 @@
 				{
 					"includeDirectories" : 
 					[
-						"/usr/lib/gcc/x86_64-linux-gnu/13/include",
+						"/usr/lib/gcc/x86_64-linux-gnu/11/include",
 						"/usr/local/include",
 						"/usr/include/x86_64-linux-gnu",
 						"/usr/include"
 					],
 					"linkDirectories" : 
 					[
-						"/usr/lib/gcc/x86_64-linux-gnu/13",
+						"/usr/lib/gcc/x86_64-linux-gnu/11",
 						"/usr/lib/x86_64-linux-gnu",
 						"/usr/lib",
 						"/lib/x86_64-linux-gnu",
@@ -34,7 +34,7 @@
 					]
 				},
 				"path" : "/usr/bin/gcc",
-				"version" : "13.1.0"
+				"version" : "11.4.0"
 			},
 			"language" : "C",
 			"sourceFileExtensions" : 
@@ -51,17 +51,17 @@
 				{
 					"includeDirectories" : 
 					[
-						"/usr/include/c++/13",
-						"/usr/include/x86_64-linux-gnu/c++/13",
-						"/usr/include/c++/13/backward",
-						"/usr/lib/gcc/x86_64-linux-gnu/13/include",
+						"/usr/include/c++/11",
+						"/usr/include/x86_64-linux-gnu/c++/11",
+						"/usr/include/c++/11/backward",
+						"/usr/lib/gcc/x86_64-linux-gnu/11/include",
 						"/usr/local/include",
 						"/usr/include/x86_64-linux-gnu",
 						"/usr/include"
 					],
 					"linkDirectories" : 
 					[
-						"/usr/lib/gcc/x86_64-linux-gnu/13",
+						"/usr/lib/gcc/x86_64-linux-gnu/11",
 						"/usr/lib/x86_64-linux-gnu",
 						"/usr/lib",
 						"/lib/x86_64-linux-gnu",
@@ -80,7 +80,7 @@
 					]
 				},
 				"path" : "/usr/bin/g++",
-				"version" : "13.1.0"
+				"version" : "11.4.0"
 			},
 			"language" : "CXX",
 			"sourceFileExtensions" : 

@@ -137,8 +137,8 @@ Robotrunner/clean: Robotrunner/CMakeFiles/TestRobotrunner.dir/clean
 # Target rules for target CMakeFiles/code_struct.dir
 
 # All Build rule for target.
-CMakeFiles/code_struct.dir/all: Period/CMakeFiles/Period.dir/all
 CMakeFiles/code_struct.dir/all: HardwareCom/CMakeFiles/HardwareCom.dir/all
+CMakeFiles/code_struct.dir/all: Period/CMakeFiles/Period.dir/all
 CMakeFiles/code_struct.dir/all: Robotrunner/CMakeFiles/Robotrunner.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code_struct.dir/build.make CMakeFiles/code_struct.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code_struct.dir/build.make CMakeFiles/code_struct.dir/build
@@ -243,8 +243,8 @@ HardwareCom/CMakeFiles/HardwareCom.dir/clean:
 # Target rules for target HardwareCom/CMakeFiles/TestHardware.dir
 
 # All Build rule for target.
-HardwareCom/CMakeFiles/TestHardware.dir/all: Period/CMakeFiles/Period.dir/all
 HardwareCom/CMakeFiles/TestHardware.dir/all: HardwareCom/CMakeFiles/HardwareCom.dir/all
+HardwareCom/CMakeFiles/TestHardware.dir/all: Period/CMakeFiles/Period.dir/all
 	$(MAKE) $(MAKESILENT) -f HardwareCom/CMakeFiles/TestHardware.dir/build.make HardwareCom/CMakeFiles/TestHardware.dir/depend
 	$(MAKE) $(MAKESILENT) -f HardwareCom/CMakeFiles/TestHardware.dir/build.make HardwareCom/CMakeFiles/TestHardware.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/roma/Desktop/code_struct_linux_slj/build/CMakeFiles --progress-num=8,9 "Built target TestHardware"
@@ -296,8 +296,8 @@ Robotrunner/CMakeFiles/Robotrunner.dir/clean:
 # Target rules for target Robotrunner/CMakeFiles/TestRobotrunner.dir
 
 # All Build rule for target.
-Robotrunner/CMakeFiles/TestRobotrunner.dir/all: Period/CMakeFiles/Period.dir/all
 Robotrunner/CMakeFiles/TestRobotrunner.dir/all: HardwareCom/CMakeFiles/HardwareCom.dir/all
+Robotrunner/CMakeFiles/TestRobotrunner.dir/all: Period/CMakeFiles/Period.dir/all
 Robotrunner/CMakeFiles/TestRobotrunner.dir/all: Robotrunner/CMakeFiles/Robotrunner.dir/all
 	$(MAKE) $(MAKESILENT) -f Robotrunner/CMakeFiles/TestRobotrunner.dir/build.make Robotrunner/CMakeFiles/TestRobotrunner.dir/depend
 	$(MAKE) $(MAKESILENT) -f Robotrunner/CMakeFiles/TestRobotrunner.dir/build.make Robotrunner/CMakeFiles/TestRobotrunner.dir/build

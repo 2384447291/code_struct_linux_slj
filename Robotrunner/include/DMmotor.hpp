@@ -66,7 +66,7 @@ public:
     float control_k_d;
     float control_torque;
     
-    uint8_t m_recieve_msg[8];
+    uint8_t m_recieve_msg[8] = {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00};
     copy_solver m_solver;
         
     DMmotor(std::string _name):

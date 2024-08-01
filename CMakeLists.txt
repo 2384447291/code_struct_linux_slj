@@ -15,15 +15,37 @@ add_subdirectory(Period)
 add_subdirectory(HardwareCom)
 add_subdirectory(Robotrunner)
 
-#设置主函数
+############################################设置主函数############################################
+#查找外来库
+
+# 查找并加载 PkgConfig 模块
+# PkgConfig 是一个用于管理编译过程中库的路径和编译器标志的工具
+# REQUIRED 关键字表示如果 PkgConfig 没有找到，CMake 将停止并报错。
+find_package(PkgConfig REQUIRED)
+# pkg_check_modules 函数通过 pkg-config 工具查找名为 libevdev 的模块
+# 查找到的结果将被存储在几个变量中，例如：
+#     libevdev_INCLUDE_DIRS: 包含库的头文件的目录。
+#     libevdev_LIBRARY_DIRS: 包含库的目录。
+#     libevdev_LIBRARIES: 库文件的名称。
+pkg_check_modules(libevdev REQUIRED libevdev)
+# pkg_check_modules(Opencv REQUIRED opencv4)
+
+add_executable(code_struct main.cpp)
+
 include_directories(./Robotrunner/include)
 include_directories(./HardwareCom/include)
 include_directories(./Period/include)
 include_directories(./data_struct)
+include_directories(${libevdev_INCLUDE_DIRS})
+# include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(code_struct main.cpp)
+# 指定 PUBLIC 会使链接信息和包含路径在目标和依赖目标中都可见。
+# 指定 PRIVATE 只会使链接信息在目标中可见，而不会传播给依赖目标。
 target_link_libraries(code_struct PRIVATE Robotrunner)
 target_link_libraries(code_struct PRIVATE HardwareCom)
 target_link_libraries(code_struct PRIVATE Period)
+target_link_libraries(code_struct PRIVATE pthread)
+target_link_libraries(code_struct PRIVATE ${libevdev_LIBRARIES})
+# target_link_libraries(code_struct PRIVATE ${OpenCV_LIBRARIES})
 
 set_target_properties(code_struct PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/build/bin)

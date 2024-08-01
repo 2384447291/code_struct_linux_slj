@@ -3,6 +3,9 @@
         {
             "name": "Linux",
             "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "/home/roma/lib/opencv4.10.0_install/include",
                 "${workspaceFolder}/",
                 "${workspaceFolder}/Period/include",
                 "${workspaceFolder}/HardwareCom/include",

@@ -125,6 +125,11 @@ void UartCom::read_line(int fd)
         total_read += n;
     } while (n > 0);
     
+    if(total_read < 0)
+    {
+        return;
+    }
+    
     uint32_t total_read_num = ssize_t_to_uint32_t(total_read);
     //把数据压入循环队列
     if(total_read_num > 0)
