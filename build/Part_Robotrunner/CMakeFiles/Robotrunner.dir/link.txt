@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libRobotrunner.so -o /home/roma/Desktop/code_struct_linux_slj/lib/libRobotrunner.so CMakeFiles/Robotrunner.dir/src/RobotRunner.cpp.o CMakeFiles/Robotrunner.dir/src/IrisTac.cpp.o  -lpthread 

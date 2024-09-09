@@ -5,11 +5,12 @@
             "includePath": [
                 "/usr/include",
                 "/usr/local/include",
-                "/home/roma/lib/opencv4.10.0_install/include",
                 "${workspaceFolder}/",
-                "${workspaceFolder}/Period/include",
-                "${workspaceFolder}/HardwareCom/include",
-                "${workspaceFolder}/Robotrunner/include",
+                "${workspaceFolder}/Part_Period/include",
+                "${workspaceFolder}/Part_HardwareCom/include",
+                "${workspaceFolder}/Part_Robotrunner/include",
+                "${workspaceFolder}/Part_Threadpool/include",
+                "${workspaceFolder}/Part_QT/include",
                 "${workspaceFolder}/data_struct"
             ],
             "defines": [],

@@ -69,6 +69,13 @@
         "executor": "cpp",
         "io_context": "cpp",
         "netfwd": "cpp",
-        "timer": "cpp"
-    }
+        "timer": "cpp",
+        "complex": "cpp",
+        "map": "cpp",
+        "set": "cpp",
+        "text_encoding": "cpp",
+        "cinttypes": "cpp",
+        "codecvt": "cpp"
+    },
+    "qtConfigure.qtKitDir": "/home/roma/Qt/6.2.4/gcc_64"
 }

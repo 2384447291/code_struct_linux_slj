@@ -7,10 +7,11 @@
 #include "libevdev-1.0/libevdev/libevdev.h"
 #include <unordered_map>
 #include <string>
+#include <dirent.h>
 
 class KeyboardReader {
 public:
-    KeyboardReader(const std::string& devicePath);
+    KeyboardReader();
     ~KeyboardReader();
     bool initialize();
     void readEvents();
@@ -19,18 +20,21 @@ public:
     std::string getKeyName(int keyCode);
     int getKeyCode(std::string keyName);
     bool isKeyPressed(int keyCode);  // 新增方法来检查键状态
+    bool is_keyboard(const char* device_path);
+    bool find_device();
 
 private:
     int fd;
-    struct libevdev *dev;
     std::string devicePath;
+    struct libevdev *dev;
     std::unordered_map<int, std::string> keyMap;
     std::unordered_map<int, bool> keyState;  // 用于跟踪每个键的状态
     void initializeKeyMap();
 };
 
-KeyboardReader::KeyboardReader(const std::string& devicePath)
-    : fd(-1), dev(nullptr), devicePath(devicePath) {
+KeyboardReader::KeyboardReader()
+    : fd(-1), dev(nullptr) {
+    find_device();
     initializeKeyMap();
 }
 
@@ -68,7 +72,7 @@ void KeyboardReader::readEvents() {
             keyState[ev.code] = true; // 更新状态为按下
             down_event(getKeyName(ev.code));
         } else if (ev.value == 0) { // 按键释放
-            std::cout << "按键: " << getKeyName(ev.code) << " 被释放" << std::endl;
+            // std::cout << "按键: " << getKeyName(ev.code) << " 被释放" << std::endl;
             keyState[ev.code] = false; // 更新状态为释放
             up_event(getKeyName(ev.code));
         }
@@ -207,5 +211,52 @@ bool KeyboardReader::isKeyPressed(int keyCode) {
     }
     return false;
 }
+
+bool KeyboardReader::is_keyboard(const char* device_path) {
+    int fd = open(device_path, O_RDONLY | O_NONBLOCK);
+    if (fd < 0) {
+        std::cerr << "Failed to open device: " << device_path << std::endl;
+        return false;
+    }
+
+    struct libevdev* dev = nullptr;
+    int rc = libevdev_new_from_fd(fd, &dev);
+    if (rc < 0) {
+        std::cerr << "Failed to init libevdev (" << device_path << "): " << strerror(-rc) << std::endl;
+        close(fd);
+        return false;
+    }
+
+    bool is_keyboard = libevdev_has_event_type(dev, EV_KEY) &&
+                       libevdev_has_event_code(dev, EV_KEY, KEY_A); // Check for an arbitrary key like 'A'
+
+    libevdev_free(dev);
+    close(fd);
+
+    return is_keyboard;
+}
+
+bool KeyboardReader::find_device()
+{
+    const char* input_dir = "/dev/input/";
+    DIR* dir = opendir(input_dir);
+    if (!dir) {
+        std::cerr << "Failed to open /dev/input directory." << std::endl;
+        return 1;
+    }
+    struct dirent* entry;
+    while ((entry = readdir(dir)) != nullptr) {
+        if (strncmp(entry->d_name, "event", 5) == 0) {
+            std::string temp_device_path = std::string(input_dir) + entry->d_name;
+            if (is_keyboard(temp_device_path.c_str())) {
+                std::cout << "Keyboard found: " << temp_device_path << std::endl;
+                devicePath = temp_device_path.c_str();
+            }
+        }
+    }
+    closedir(dir);
+    return 1;
+}
+
 
 #endif
