@@ -219,20 +219,20 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/Camera.cpp.o: /home/roma/Desktop
   /usr/include/c++/9/bits/ostream.tcc \
   /usr/include/c++/9/istream \
   /usr/include/c++/9/bits/istream.tcc \
-  /usr/local/include/opencv2/opencv.hpp \
-  /usr/local/include/opencv2/opencv_modules.hpp \
-  /usr/local/include/opencv2/core.hpp \
-  /usr/local/include/opencv2/core/cvdef.h \
-  /usr/local/include/opencv2/core/version.hpp \
-  /usr/local/include/opencv2/core/hal/interface.h \
+  /usr/local/include/opencv4/opencv2/opencv.hpp \
+  /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
+  /usr/local/include/opencv4/opencv2/core.hpp \
+  /usr/local/include/opencv4/opencv2/core/cvdef.h \
+  /usr/local/include/opencv4/opencv2/core/version.hpp \
+  /usr/local/include/opencv4/opencv2/core/hal/interface.h \
   /usr/include/c++/9/cstddef \
-  /usr/local/include/opencv2/core/cv_cpu_dispatch.h \
+  /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/emmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/xmmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/mmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/mm_malloc.h \
   /usr/include/c++/9/stdlib.h \
-  /usr/local/include/opencv2/core/base.hpp \
+  /usr/local/include/opencv4/opencv2/core/base.hpp \
   /usr/include/c++/9/climits \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
@@ -255,7 +255,7 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/Camera.cpp.o: /home/roma/Desktop
   /usr/include/c++/9/bits/enable_special_members.h \
   /usr/include/c++/9/bits/unordered_map.h \
   /usr/include/c++/9/bits/erase_if.h \
-  /usr/local/include/opencv2/core/cvstd.hpp \
+  /usr/local/include/opencv4/opencv2/core/cvstd.hpp \
   /usr/include/c++/9/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
@@ -283,85 +283,85 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/Camera.cpp.o: /home/roma/Desktop
   /usr/include/c++/9/tr1/poly_hermite.tcc \
   /usr/include/c++/9/tr1/poly_laguerre.tcc \
   /usr/include/c++/9/tr1/riemann_zeta.tcc \
-  /usr/local/include/opencv2/core/cvstd_wrapper.hpp \
-  /usr/local/include/opencv2/core/neon_utils.hpp \
-  /usr/local/include/opencv2/core/vsx_utils.hpp \
+  /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/local/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp \
   /usr/include/assert.h \
-  /usr/local/include/opencv2/core/check.hpp \
-  /usr/local/include/opencv2/core/traits.hpp \
-  /usr/local/include/opencv2/core/matx.hpp \
-  /usr/local/include/opencv2/core/saturate.hpp \
-  /usr/local/include/opencv2/core/fast_math.hpp \
-  /usr/local/include/opencv2/core/matx.inl.hpp \
-  /usr/local/include/opencv2/core/types.hpp \
+  /usr/local/include/opencv4/opencv2/core/check.hpp \
+  /usr/local/include/opencv4/opencv2/core/traits.hpp \
+  /usr/local/include/opencv4/opencv2/core/matx.hpp \
+  /usr/local/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/local/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/local/include/opencv4/opencv2/core/matx.inl.hpp \
+  /usr/local/include/opencv4/opencv2/core/types.hpp \
   /usr/include/c++/9/cfloat \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/float.h \
-  /usr/local/include/opencv2/core/mat.hpp \
-  /usr/local/include/opencv2/core/bufferpool.hpp \
-  /usr/local/include/opencv2/core/mat.inl.hpp \
-  /usr/local/include/opencv2/core/persistence.hpp \
-  /usr/local/include/opencv2/core/operations.hpp \
-  /usr/local/include/opencv2/core/cvstd.inl.hpp \
+  /usr/local/include/opencv4/opencv2/core/mat.hpp \
+  /usr/local/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/local/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/local/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/local/include/opencv4/opencv2/core/operations.hpp \
+  /usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp \
   /usr/include/c++/9/complex \
   /usr/include/c++/9/sstream \
   /usr/include/c++/9/bits/sstream.tcc \
-  /usr/local/include/opencv2/core/utility.hpp \
+  /usr/local/include/opencv4/opencv2/core/utility.hpp \
   /usr/include/c++/9/mutex \
   /usr/include/c++/9/bits/std_mutex.h \
   /usr/include/c++/9/bits/unique_lock.h \
-  /usr/local/include/opencv2/core/optim.hpp \
-  /usr/local/include/opencv2/core/ovx.hpp \
-  /usr/local/include/opencv2/core/cvdef.h \
-  /usr/local/include/opencv2/calib3d.hpp \
-  /usr/local/include/opencv2/features2d.hpp \
-  /usr/local/include/opencv2/flann/miniflann.hpp \
-  /usr/local/include/opencv2/flann/defines.h \
-  /usr/local/include/opencv2/flann/config.h \
-  /usr/local/include/opencv2/core/affine.hpp \
-  /usr/local/include/opencv2/core/utils/logger.hpp \
-  /usr/local/include/opencv2/core/utils/logger.defines.hpp \
-  /usr/local/include/opencv2/core/utils/logtag.hpp \
-  /usr/local/include/opencv2/dnn.hpp \
-  /usr/local/include/opencv2/dnn/dnn.hpp \
-  /usr/local/include/opencv2/core/async.hpp \
-  /usr/local/include/opencv2/dnn/version.hpp \
-  /usr/local/include/opencv2/dnn/dict.hpp \
+  /usr/local/include/opencv4/opencv2/core/optim.hpp \
+  /usr/local/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/local/include/opencv4/opencv2/core/cvdef.h \
+  /usr/local/include/opencv4/opencv2/calib3d.hpp \
+  /usr/local/include/opencv4/opencv2/features2d.hpp \
+  /usr/local/include/opencv4/opencv2/flann/miniflann.hpp \
+  /usr/local/include/opencv4/opencv2/flann/defines.h \
+  /usr/local/include/opencv4/opencv2/flann/config.h \
+  /usr/local/include/opencv4/opencv2/core/affine.hpp \
+  /usr/local/include/opencv4/opencv2/core/utils/logger.hpp \
+  /usr/local/include/opencv4/opencv2/core/utils/logger.defines.hpp \
+  /usr/local/include/opencv4/opencv2/core/utils/logtag.hpp \
+  /usr/local/include/opencv4/opencv2/dnn.hpp \
+  /usr/local/include/opencv4/opencv2/dnn/dnn.hpp \
+  /usr/local/include/opencv4/opencv2/core/async.hpp \
+  /usr/local/include/opencv4/opencv2/dnn/version.hpp \
+  /usr/local/include/opencv4/opencv2/dnn/dict.hpp \
   /usr/include/c++/9/map \
   /usr/include/c++/9/bits/stl_tree.h \
   /usr/include/c++/9/bits/stl_map.h \
   /usr/include/c++/9/bits/stl_multimap.h \
-  /usr/local/include/opencv2/dnn/layer.hpp \
-  /usr/local/include/opencv2/dnn/dnn.inl.hpp \
-  /usr/local/include/opencv2/dnn/utils/inference_engine.hpp \
+  /usr/local/include/opencv4/opencv2/dnn/layer.hpp \
+  /usr/local/include/opencv4/opencv2/dnn/dnn.inl.hpp \
+  /usr/local/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
   /usr/local/include/opencv4/opencv2/dnn/dnn.hpp \
-  /usr/local/include/opencv2/flann.hpp \
-  /usr/local/include/opencv2/flann/flann_base.hpp \
-  /usr/local/include/opencv2/flann/general.h \
-  /usr/local/include/opencv2/flann/matrix.h \
-  /usr/local/include/opencv2/flann/params.h \
-  /usr/local/include/opencv2/flann/any.h \
-  /usr/local/include/opencv2/flann/defines.h \
-  /usr/local/include/opencv2/flann/saving.h \
-  /usr/local/include/opencv2/flann/nn_index.h \
-  /usr/local/include/opencv2/flann/result_set.h \
+  /usr/local/include/opencv4/opencv2/flann.hpp \
+  /usr/local/include/opencv4/opencv2/flann/flann_base.hpp \
+  /usr/local/include/opencv4/opencv2/flann/general.h \
+  /usr/local/include/opencv4/opencv2/flann/matrix.h \
+  /usr/local/include/opencv4/opencv2/flann/params.h \
+  /usr/local/include/opencv4/opencv2/flann/any.h \
+  /usr/local/include/opencv4/opencv2/flann/defines.h \
+  /usr/local/include/opencv4/opencv2/flann/saving.h \
+  /usr/local/include/opencv4/opencv2/flann/nn_index.h \
+  /usr/local/include/opencv4/opencv2/flann/result_set.h \
   /usr/include/c++/9/set \
   /usr/include/c++/9/bits/stl_set.h \
   /usr/include/c++/9/bits/stl_multiset.h \
-  /usr/local/include/opencv2/flann/all_indices.h \
-  /usr/local/include/opencv2/flann/kdtree_index.h \
-  /usr/local/include/opencv2/flann/dynamic_bitset.h \
-  /usr/local/include/opencv2/flann/dist.h \
-  /usr/local/include/opencv2/flann/heap.h \
-  /usr/local/include/opencv2/flann/allocator.h \
-  /usr/local/include/opencv2/flann/random.h \
-  /usr/local/include/opencv2/flann/kdtree_single_index.h \
-  /usr/local/include/opencv2/flann/kmeans_index.h \
-  /usr/local/include/opencv2/flann/logger.h \
-  /usr/local/include/opencv2/flann/composite_index.h \
-  /usr/local/include/opencv2/flann/linear_index.h \
-  /usr/local/include/opencv2/flann/hierarchical_clustering_index.h \
-  /usr/local/include/opencv2/flann/lsh_index.h \
-  /usr/local/include/opencv2/flann/lsh_table.h \
+  /usr/local/include/opencv4/opencv2/flann/all_indices.h \
+  /usr/local/include/opencv4/opencv2/flann/kdtree_index.h \
+  /usr/local/include/opencv4/opencv2/flann/dynamic_bitset.h \
+  /usr/local/include/opencv4/opencv2/flann/dist.h \
+  /usr/local/include/opencv4/opencv2/flann/heap.h \
+  /usr/local/include/opencv4/opencv2/flann/allocator.h \
+  /usr/local/include/opencv4/opencv2/flann/random.h \
+  /usr/local/include/opencv4/opencv2/flann/kdtree_single_index.h \
+  /usr/local/include/opencv4/opencv2/flann/kmeans_index.h \
+  /usr/local/include/opencv4/opencv2/flann/logger.h \
+  /usr/local/include/opencv4/opencv2/flann/composite_index.h \
+  /usr/local/include/opencv4/opencv2/flann/linear_index.h \
+  /usr/local/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
+  /usr/local/include/opencv4/opencv2/flann/lsh_index.h \
+  /usr/local/include/opencv4/opencv2/flann/lsh_table.h \
   /usr/include/c++/9/iomanip \
   /usr/include/c++/9/locale \
   /usr/include/c++/9/bits/locale_facets_nonio.h \
@@ -373,57 +373,57 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/Camera.cpp.o: /home/roma/Desktop
   /usr/include/c++/9/bits/locale_conv.h \
   /usr/include/c++/9/bits/quoted_string.h \
   /usr/include/c++/9/math.h \
-  /usr/local/include/opencv2/flann/autotuned_index.h \
-  /usr/local/include/opencv2/flann/ground_truth.h \
-  /usr/local/include/opencv2/flann/index_testing.h \
-  /usr/local/include/opencv2/flann/timer.h \
-  /usr/local/include/opencv2/flann/sampling.h \
-  /usr/local/include/opencv2/highgui.hpp \
-  /usr/local/include/opencv2/imgcodecs.hpp \
-  /usr/local/include/opencv2/videoio.hpp \
-  /usr/local/include/opencv2/imgproc.hpp \
-  /usr/local/include/opencv2/imgproc/segmentation.hpp \
-  /usr/local/include/opencv2/ml.hpp \
-  /usr/local/include/opencv2/ml/ml.inl.hpp \
-  /usr/local/include/opencv2/objdetect.hpp \
-  /usr/local/include/opencv2/objdetect/aruco_detector.hpp \
-  /usr/local/include/opencv2/objdetect/aruco_dictionary.hpp \
-  /usr/local/include/opencv2/objdetect/aruco_board.hpp \
-  /usr/local/include/opencv2/objdetect/graphical_code_detector.hpp \
-  /usr/local/include/opencv2/objdetect/detection_based_tracker.hpp \
-  /usr/local/include/opencv2/objdetect/face.hpp \
-  /usr/local/include/opencv2/objdetect/charuco_detector.hpp \
-  /usr/local/include/opencv2/objdetect/barcode.hpp \
-  /usr/local/include/opencv2/photo.hpp \
-  /usr/local/include/opencv2/stitching.hpp \
-  /usr/local/include/opencv2/stitching/warpers.hpp \
-  /usr/local/include/opencv2/stitching/detail/warpers.hpp \
-  /usr/local/include/opencv2/core/cuda.hpp \
-  /usr/local/include/opencv2/core/cuda_types.hpp \
-  /usr/local/include/opencv2/core/cuda.inl.hpp \
-  /usr/local/include/opencv2/stitching/detail/warpers_inl.hpp \
-  /usr/local/include/opencv2/stitching/detail/warpers.hpp \
-  /usr/local/include/opencv2/stitching/detail/matchers.hpp \
-  /usr/local/include/opencv2/stitching/detail/motion_estimators.hpp \
-  /usr/local/include/opencv2/stitching/detail/matchers.hpp \
-  /usr/local/include/opencv2/stitching/detail/util.hpp \
+  /usr/local/include/opencv4/opencv2/flann/autotuned_index.h \
+  /usr/local/include/opencv4/opencv2/flann/ground_truth.h \
+  /usr/local/include/opencv4/opencv2/flann/index_testing.h \
+  /usr/local/include/opencv4/opencv2/flann/timer.h \
+  /usr/local/include/opencv4/opencv2/flann/sampling.h \
+  /usr/local/include/opencv4/opencv2/highgui.hpp \
+  /usr/local/include/opencv4/opencv2/imgcodecs.hpp \
+  /usr/local/include/opencv4/opencv2/videoio.hpp \
+  /usr/local/include/opencv4/opencv2/imgproc.hpp \
+  /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/local/include/opencv4/opencv2/ml.hpp \
+  /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/face.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
+  /usr/local/include/opencv4/opencv2/objdetect/barcode.hpp \
+  /usr/local/include/opencv4/opencv2/photo.hpp \
+  /usr/local/include/opencv4/opencv2/stitching.hpp \
+  /usr/local/include/opencv4/opencv2/stitching/warpers.hpp \
+  /usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+  /usr/local/include/opencv4/opencv2/core/cuda.hpp \
+  /usr/local/include/opencv4/opencv2/core/cuda_types.hpp \
+  /usr/local/include/opencv4/opencv2/core/cuda.inl.hpp \
+  /usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
+  /usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+  /usr/local/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+  /usr/local/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
+  /usr/local/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+  /usr/local/include/opencv4/opencv2/stitching/detail/util.hpp \
   /usr/include/c++/9/list \
   /usr/include/c++/9/bits/stl_list.h \
   /usr/include/c++/9/bits/list.tcc \
-  /usr/local/include/opencv2/stitching/detail/util_inl.hpp \
+  /usr/local/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
   /usr/include/c++/9/queue \
   /usr/include/c++/9/deque \
   /usr/include/c++/9/bits/stl_deque.h \
   /usr/include/c++/9/bits/deque.tcc \
   /usr/include/c++/9/bits/stl_queue.h \
-  /usr/local/include/opencv2/stitching/detail/camera.hpp \
-  /usr/local/include/opencv2/stitching/detail/exposure_compensate.hpp \
-  /usr/local/include/opencv2/stitching/detail/seam_finders.hpp \
-  /usr/local/include/opencv2/stitching/detail/blenders.hpp \
-  /usr/local/include/opencv2/stitching/detail/camera.hpp \
-  /usr/local/include/opencv2/video.hpp \
-  /usr/local/include/opencv2/video/tracking.hpp \
-  /usr/local/include/opencv2/video/background_segm.hpp \
+  /usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp \
+  /usr/local/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
+  /usr/local/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
+  /usr/local/include/opencv4/opencv2/stitching/detail/blenders.hpp \
+  /usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp \
+  /usr/local/include/opencv4/opencv2/video.hpp \
+  /usr/local/include/opencv4/opencv2/video/tracking.hpp \
+  /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
   /usr/include/c++/9/shared_mutex \
   /usr/include/c++/9/condition_variable \
   /usr/include/c++/9/filesystem \
@@ -963,6 +963,8 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
 
+/usr/include/linux/stddef.h:
+
 /usr/include/linux/posix_types.h:
 
 /usr/include/x86_64-linux-gnu/asm/termbits.h:
@@ -970,8 +972,6 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 /usr/include/asm-generic/ioctl.h:
 
 /usr/include/linux/ioctl.h:
-
-/usr/include/x86_64-linux-gnu/asm/ioctls.h:
 
 /usr/include/x86_64-linux-gnu/sys/ioctl.h:
 
@@ -983,8 +983,6 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/unistd.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_stat.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h:
 
 /usr/include/fcntl.h:
@@ -993,53 +991,81 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /home/roma/Desktop/code_struct_linux_slj/data_struct/CircularQueue.hpp:
 
-/home/roma/Desktop/code_struct_linux_slj/Part_HardwareCom/include/DM_USB2CAN.hpp:
+/home/roma/Desktop/code_struct_linux_slj/Part_HardwareCom/include/UartCommunication.hpp:
 
-/home/roma/Desktop/code_struct_linux_slj/Part_HardwareCom/src/DM_USB2CAN.cpp:
+/home/roma/Desktop/code_struct_linux_slj/Part_HardwareCom/include/DM_USB2CAN.hpp:
 
 /usr/include/c++/9/bits/fs_ops.h:
 
+/usr/include/c++/9/codecvt:
+
 /usr/include/c++/9/bits/fs_path.h:
 
-/usr/include/c++/9/condition_variable:
+/usr/include/c++/9/bits/fs_fwd.h:
 
-/usr/local/include/opencv2/stitching/detail/seam_finders.hpp:
+/usr/local/include/opencv4/opencv2/video/background_segm.hpp:
 
-/usr/local/include/opencv2/stitching/detail/camera.hpp:
+/usr/local/include/opencv4/opencv2/video/tracking.hpp:
+
+/usr/local/include/opencv4/opencv2/stitching/detail/blenders.hpp:
+
+/usr/local/include/opencv4/opencv2/stitching/detail/seam_finders.hpp:
 
 /usr/include/c++/9/bits/deque.tcc:
 
 /usr/include/c++/9/list:
 
-/usr/local/include/opencv2/stitching/detail/warpers_inl.hpp:
+/usr/local/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp:
 
-/usr/local/include/opencv2/core/cuda.inl.hpp:
+/usr/local/include/opencv4/opencv2/stitching/detail/matchers.hpp:
 
-/usr/local/include/opencv2/core/cuda_types.hpp:
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp:
 
-/usr/local/include/opencv2/core/cuda.hpp:
+/usr/local/include/opencv4/opencv2/core/cuda.inl.hpp:
 
-/usr/local/include/opencv2/stitching.hpp:
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp:
 
-/usr/local/include/opencv2/objdetect/aruco_detector.hpp:
+/usr/local/include/opencv4/opencv2/photo.hpp:
 
-/usr/local/include/opencv2/ml/ml.inl.hpp:
+/usr/local/include/opencv4/opencv2/objdetect/face.hpp:
 
-/usr/local/include/opencv2/imgproc.hpp:
+/usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp:
 
-/usr/local/include/opencv2/videoio.hpp:
+/usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp:
 
-/usr/local/include/opencv2/highgui.hpp:
+/usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp:
 
-/usr/local/include/opencv2/flann/index_testing.h:
+/usr/local/include/opencv4/opencv2/objdetect.hpp:
 
-/usr/local/include/opencv2/flann/autotuned_index.h:
+/usr/include/x86_64-linux-gnu/asm/ioctls.h:
+
+/usr/local/include/opencv4/opencv2/ml/ml.inl.hpp:
+
+/usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp:
+
+/usr/include/asm-generic/termbits.h:
+
+/usr/local/include/opencv4/opencv2/imgproc.hpp:
+
+/usr/local/include/opencv4/opencv2/videoio.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/struct_stat.h:
+
+/usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp:
+
+/usr/local/include/opencv4/opencv2/highgui.hpp:
+
+/usr/local/include/opencv4/opencv2/flann/index_testing.h:
+
+/usr/local/include/opencv4/opencv2/flann/autotuned_index.h:
 
 /usr/include/c++/9/math.h:
 
 /usr/include/c++/9/bits/locale_conv.h:
 
 /usr/include/c++/9/bits/locale_facets_nonio.tcc:
+
+/usr/local/include/opencv4/opencv2/stitching/detail/util_inl.hpp:
 
 /usr/include/libintl.h:
 
@@ -1049,125 +1075,135 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/c++/9/locale:
 
-/usr/local/include/opencv2/flann/lsh_table.h:
+/usr/local/include/opencv4/opencv2/flann/lsh_table.h:
 
-/home/roma/Desktop/code_struct_linux_slj/Part_HardwareCom/include/UartCommunication.hpp:
+/usr/local/include/opencv4/opencv2/core/cuda_types.hpp:
 
-/usr/local/include/opencv2/flann/hierarchical_clustering_index.h:
+/usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp:
 
-/usr/local/include/opencv2/flann/linear_index.h:
+/usr/local/include/opencv4/opencv2/flann/hierarchical_clustering_index.h:
 
-/usr/local/include/opencv2/flann/kdtree_single_index.h:
+/usr/local/include/opencv4/opencv2/flann/logger.h:
 
-/usr/local/include/opencv2/flann/random.h:
+/usr/local/include/opencv4/opencv2/flann/kdtree_single_index.h:
 
-/usr/local/include/opencv2/stitching/detail/exposure_compensate.hpp:
+/usr/local/include/opencv4/opencv2/flann/allocator.h:
 
-/usr/local/include/opencv2/flann/allocator.h:
+/usr/local/include/opencv4/opencv2/flann/heap.h:
 
-/usr/local/include/opencv2/flann/dist.h:
+/usr/local/include/opencv4/opencv2/objdetect/barcode.hpp:
 
-/usr/local/include/opencv2/flann/dynamic_bitset.h:
+/usr/local/include/opencv4/opencv2/flann/dist.h:
 
-/usr/include/c++/9/bits/fs_fwd.h:
+/usr/local/include/opencv4/opencv2/flann/dynamic_bitset.h:
 
-/usr/local/include/opencv2/flann/all_indices.h:
+/usr/local/include/opencv4/opencv2/flann/kdtree_index.h:
+
+/usr/local/include/opencv4/opencv2/flann/all_indices.h:
 
 /usr/include/c++/9/bits/stl_multiset.h:
 
 /usr/include/c++/9/set:
 
-/usr/local/include/opencv2/stitching/warpers.hpp:
+/usr/local/include/opencv4/opencv2/flann/saving.h:
 
-/usr/local/include/opencv2/flann/nn_index.h:
+/usr/local/include/opencv4/opencv2/flann/params.h:
 
-/usr/local/include/opencv2/objdetect/aruco_dictionary.hpp:
+/usr/local/include/opencv4/opencv2/flann/matrix.h:
 
-/usr/local/include/opencv2/flann/any.h:
+/usr/include/c++/9/condition_variable:
 
-/usr/local/include/opencv2/flann/flann_base.hpp:
+/usr/local/include/opencv4/opencv2/flann/general.h:
 
-/usr/local/include/opencv2/flann.hpp:
+/usr/local/include/opencv4/opencv2/flann/flann_base.hpp:
 
-/usr/local/include/opencv4/opencv2/dnn/dnn.hpp:
+/usr/local/include/opencv4/opencv2/flann.hpp:
 
-/usr/include/asm-generic/termbits.h:
+/usr/local/include/opencv4/opencv2/flann/random.h:
 
-/usr/local/include/opencv2/imgproc/segmentation.hpp:
+/usr/local/include/opencv4/opencv2/dnn/utils/inference_engine.hpp:
 
-/usr/local/include/opencv2/flann/timer.h:
+/usr/local/include/opencv4/opencv2/flann/result_set.h:
 
-/usr/local/include/opencv2/dnn/utils/inference_engine.hpp:
+/usr/local/include/opencv4/opencv2/dnn/dnn.inl.hpp:
 
 /usr/include/c++/9/bits/stl_multimap.h:
 
 /usr/include/c++/9/map:
 
-/usr/local/include/opencv2/dnn/dict.hpp:
+/usr/local/include/opencv4/opencv2/dnn/dict.hpp:
 
-/usr/include/c++/9/codecvt:
+/usr/local/include/opencv4/opencv2/core/async.hpp:
 
-/usr/local/include/opencv2/core/async.hpp:
+/usr/local/include/opencv4/opencv2/dnn/dnn.hpp:
 
-/usr/local/include/opencv2/core/utils/logtag.hpp:
+/usr/local/include/opencv4/opencv2/dnn.hpp:
 
-/usr/local/include/opencv2/core/utils/logger.defines.hpp:
+/usr/local/include/opencv4/opencv2/core/utils/logger.hpp:
 
-/usr/local/include/opencv2/core/utils/logger.hpp:
+/usr/local/include/opencv4/opencv2/flann/config.h:
 
-/usr/local/include/opencv2/core/affine.hpp:
+/usr/local/include/opencv4/opencv2/flann/defines.h:
 
-/usr/local/include/opencv2/flann/defines.h:
+/usr/local/include/opencv4/opencv2/flann/miniflann.hpp:
 
-/usr/local/include/opencv2/calib3d.hpp:
+/usr/local/include/opencv4/opencv2/features2d.hpp:
 
-/usr/local/include/opencv2/core/ovx.hpp:
+/usr/local/include/opencv4/opencv2/calib3d.hpp:
 
-/usr/local/include/opencv2/core/utility.hpp:
+/usr/local/include/opencv4/opencv2/core/ovx.hpp:
+
+/usr/local/include/opencv4/opencv2/core/optim.hpp:
+
+/usr/local/include/opencv4/opencv2/core/utility.hpp:
 
 /usr/include/c++/9/bits/sstream.tcc:
 
+/usr/local/include/opencv4/opencv2/flann/composite_index.h:
+
 /usr/include/c++/9/complex:
 
-/usr/local/include/opencv2/core/persistence.hpp:
+/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:
 
-/usr/local/include/opencv2/core/mat.inl.hpp:
+/home/roma/Desktop/code_struct_linux_slj/Part_HardwareCom/src/DM_USB2CAN.cpp:
 
-/usr/local/include/opencv2/core/mat.hpp:
+/usr/local/include/opencv4/opencv2/core/operations.hpp:
+
+/usr/local/include/opencv4/opencv2/core/persistence.hpp:
+
+/usr/local/include/opencv4/opencv2/core/mat.inl.hpp:
+
+/usr/local/include/opencv4/opencv2/core/mat.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/float.h:
 
 /usr/include/c++/9/cfloat:
 
-/usr/local/include/opencv2/core/types.hpp:
+/usr/local/include/opencv4/opencv2/video.hpp:
 
-/usr/local/include/opencv2/flann/miniflann.hpp:
+/usr/local/include/opencv4/opencv2/core/matx.inl.hpp:
 
-/usr/local/include/opencv2/core/matx.inl.hpp:
+/usr/local/include/opencv4/opencv2/core/matx.hpp:
 
-/usr/local/include/opencv2/core/fast_math.hpp:
+/usr/local/include/opencv4/opencv2/core/traits.hpp:
 
-/usr/local/include/opencv2/core/traits.hpp:
-
-/usr/local/include/opencv2/core/check.hpp:
+/usr/local/include/opencv4/opencv2/core/check.hpp:
 
 /usr/include/assert.h:
 
-/usr/local/include/opencv2/core/vsx_utils.hpp:
+/usr/local/include/opencv4/opencv2/core/neon_utils.hpp:
 
-/usr/local/include/opencv2/core/optim.hpp:
-
-/usr/local/include/opencv2/core/neon_utils.hpp:
+/usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp:
 
 /usr/include/c++/9/tr1/poly_hermite.tcc:
 
 /usr/include/c++/9/tr1/modified_bessel_func.tcc:
 
-/usr/local/include/opencv2/video/tracking.hpp:
-
 /usr/include/c++/9/tr1/legendre_function.tcc:
 
 /usr/include/c++/9/tr1/exp_integral.tcc:
+
+/usr/local/include/opencv4/opencv2/core/utils/logger.defines.hpp:
 
 /usr/include/c++/9/tr1/riemann_zeta.tcc:
 
@@ -1177,11 +1213,9 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/c++/9/tr1/bessel_function.tcc:
 
-/usr/local/include/opencv2/photo.hpp:
-
 /usr/include/c++/9/tr1/special_function_util.h:
 
-/usr/local/include/opencv2/flann/sampling.h:
+/usr/local/include/opencv4/opencv2/core/vsx_utils.hpp:
 
 /usr/include/c++/9/tr1/gamma.tcc:
 
@@ -1193,13 +1227,9 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
-/usr/local/include/opencv2/flann/config.h:
-
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/usr/local/include/opencv2/flann/matrix.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
@@ -1211,15 +1241,13 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/c++/9/cmath:
 
-/usr/local/include/opencv2/stitching/detail/util.hpp:
-
 /usr/include/strings.h:
 
 /home/roma/Desktop/code_struct_linux_slj/Part_Period/include/Timer.h:
 
 /usr/include/c++/9/bits/postypes.h:
 
-/usr/local/include/opencv2/core/base.hpp:
+/usr/local/include/opencv4/opencv2/core/base.hpp:
 
 /usr/include/c++/9/bits/std_abs.h:
 
@@ -1229,13 +1257,9 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
-/usr/local/include/opencv2/dnn.hpp:
-
 /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h:
 
 /usr/include/c++/9/bits/stl_queue.h:
-
-/usr/local/include/opencv2/flann/ground_truth.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
@@ -1245,9 +1269,9 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/c++/9/ext/alloc_traits.h:
 
-/usr/include/c++/9/bits/unordered_map.h:
-
 /usr/include/c++/9/ext/atomicity.h:
+
+/usr/local/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp:
 
 /usr/include/c++/9/bits/range_access.h:
 
@@ -1262,8 +1286,6 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/c++/9/optional:
-
-/usr/local/include/opencv2/flann/result_set.h:
 
 /usr/include/c++/9/bits/specfun.h:
 
@@ -1287,9 +1309,9 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/c++/9/bits/stl_algo.h:
 
-/usr/include/c++/9/type_traits:
+/usr/local/include/opencv4/opencv2/flann/any.h:
 
-/usr/local/include/opencv2/core/cvdef.h:
+/usr/include/c++/9/type_traits:
 
 /usr/include/c++/9/pstl/glue_algorithm_defs.h:
 
@@ -1299,13 +1321,7 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
-/usr/local/include/opencv2/stitching/detail/warpers.hpp:
-
 /usr/include/c++/9/cwctype:
-
-/usr/include/linux/stddef.h:
-
-/usr/local/include/opencv2/core/cv_cpu_dispatch.h:
 
 /usr/include/c++/9/iosfwd:
 
@@ -1329,17 +1345,11 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/c++/9/filesystem:
 
-/usr/local/include/opencv2/objdetect/detection_based_tracker.hpp:
-
-/usr/local/include/opencv2/flann/kmeans_index.h:
-
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/c++/9/bits/exception.h:
 
 /usr/include/ctype.h:
-
-/usr/local/include/opencv2/opencv_modules.hpp:
 
 /usr/include/c++/9/bits/localefwd.h:
 
@@ -1357,6 +1367,8 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/x86_64-linux-gnu/bits/ioctl-types.h:
 
+/usr/local/include/opencv4/opencv2/flann/linear_index.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h:
 
 /usr/include/c++/9/bits/streambuf.tcc:
@@ -1364,6 +1376,8 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 /usr/include/c++/9/bits/allocator.h:
 
 /usr/include/c++/9/bits/nested_exception.h:
+
+/usr/local/include/opencv4/opencv2/stitching/detail/util.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
@@ -1373,15 +1387,13 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
+/usr/local/include/opencv4/opencv2/dnn/layer.hpp:
+
 /usr/include/c++/9/bits/concept_check.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
-/usr/local/include/opencv2/core/cvstd_wrapper.hpp:
-
 /usr/include/c++/9/string_view:
-
-/usr/local/include/opencv2/objdetect/aruco_board.hpp:
 
 /usr/include/alloca.h:
 
@@ -1391,23 +1403,21 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/c++/9/cstdlib:
 
+/usr/local/include/opencv4/opencv2/stitching.hpp:
+
 /usr/include/c++/9/bits/stl_algobase.h:
 
-/usr/local/include/opencv2/video.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
-/usr/local/include/opencv2/flann/kdtree_index.h:
 
 /usr/include/c++/9/bits/char_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
+/usr/local/include/opencv4/opencv2/core/types.hpp:
+
 /usr/include/x86_64-linux-gnu/c++/9/bits/c++locale.h:
 
 /usr/include/x86_64-linux-gnu/asm/posix_types.h:
-
-/usr/local/include/opencv2/stitching/detail/blenders.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:
 
@@ -1415,17 +1425,19 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/c++/9/bits/stl_deque.h:
 
+/usr/local/include/opencv4/opencv2/core/saturate.hpp:
+
 /usr/include/stdlib.h:
 
 /usr/include/c++/9/bits/stl_bvector.h:
 
 /home/roma/Desktop/code_struct_linux_slj/Part_HardwareCom/src/Camera.cpp:
 
+/usr/local/include/opencv4/opencv2/core/cvstd.hpp:
+
 /usr/include/c++/9/debug/debug.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/local/include/opencv2/flann/lsh_index.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
@@ -1436,6 +1448,8 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 /usr/include/c++/9/pstl/pstl_config.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp:
 
 /usr/include/c++/9/tr1/hypergeometric.tcc:
 
@@ -1455,17 +1469,17 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
+/usr/local/include/opencv4/opencv2/core/bufferpool.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
 /usr/include/c++/9/ext/concurrence.h:
 
-/usr/local/include/opencv2/objdetect/barcode.hpp:
-
 /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h:
 
-/usr/include/c++/9/bits/vector.tcc:
+/usr/local/include/opencv4/opencv2/ml.hpp:
 
-/usr/local/include/opencv2/stitching/detail/matchers.hpp:
+/usr/include/c++/9/bits/vector.tcc:
 
 /usr/include/c++/9/bits/erase_if.h:
 
@@ -1499,6 +1513,8 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/features-time64.h:
 
+/usr/local/include/opencv4/opencv2/core/fast_math.hpp:
+
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/x86_64-linux-gnu/bits/fcntl.h:
@@ -1511,13 +1527,15 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/c++/9/bits/codecvt.h:
 
+/usr/local/include/opencv4/opencv2/flann/kmeans_index.h:
+
 /usr/include/c++/9/bits/enable_special_members.h:
 
 /usr/include/features.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+/usr/local/include/opencv4/opencv2/dnn/version.hpp:
 
-/usr/local/include/opencv2/flann/logger.h:
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/c++/9/bits/std_mutex.h:
 
@@ -1533,29 +1551,27 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/c++/9/bits/exception_ptr.h:
 
+/usr/local/include/opencv4/opencv2/stitching/warpers.hpp:
+
 /usr/include/endian.h:
 
 /usr/include/stdint.h:
 
-/usr/local/include/opencv2/core/bufferpool.hpp:
-
 /usr/include/linux/limits.h:
+
+/usr/include/c++/9/bits/fs_dir.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
 /usr/include/c++/9/tr1/poly_laguerre.tcc:
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/gthr.h:
-
-/usr/local/include/opencv2/core/saturate.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
 /usr/include/c++/9/cctype:
 
 /usr/include/c++/9/bits/predefined_ops.h:
-
-/usr/local/include/opencv2/flann/composite_index.h:
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/cpu_defines.h:
 
@@ -1564,8 +1580,6 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 /usr/include/c++/9/bits/ostream.tcc:
 
 /usr/include/c++/9/deque:
-
-/usr/local/include/opencv2/ml.hpp:
 
 /usr/include/c++/9/bits/unique_lock.h:
 
@@ -1583,11 +1597,13 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
-/usr/local/include/opencv2/core/matx.hpp:
+/usr/local/include/opencv4/opencv2/imgcodecs.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/local/include/opencv4/opencv2/core/version.hpp:
 
 /usr/include/c++/9/ext/numeric_traits.h:
 
@@ -1597,13 +1613,15 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/c++/9/bits/functional_hash.h:
 
+/usr/local/include/opencv4/opencv2/core/affine.hpp:
+
 /usr/include/x86_64-linux-gnu/c++/9/bits/gthr-default.h:
 
 /usr/include/pthread.h:
 
-/usr/local/include/opencv2/stitching/detail/util_inl.hpp:
-
 /usr/include/c++/9/bits/string_view.tcc:
+
+/usr/local/include/opencv4/opencv2/opencv_modules.hpp:
 
 /usr/include/wctype.h:
 
@@ -1611,7 +1629,7 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
 
-/usr/local/include/opencv2/video/background_segm.hpp:
+/usr/local/include/opencv4/opencv2/flann/ground_truth.h:
 
 /usr/include/c++/9/bits/memoryfwd.h:
 
@@ -1627,13 +1645,9 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
-/usr/local/include/opencv2/core/operations.hpp:
-
 /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h:
 
 /usr/include/c++/9/bits/basic_ios.h:
-
-/usr/local/include/opencv2/objdetect/charuco_detector.hpp:
 
 /usr/include/c++/9/tr1/beta_function.tcc:
 
@@ -1645,11 +1659,7 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
-/usr/local/include/opencv2/stitching/detail/motion_estimators.hpp:
-
 /usr/include/c++/9/bit:
-
-/usr/local/include/opencv2/flann/params.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
@@ -1657,9 +1667,11 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/atomic_word.h:
 
-/usr/include/stdio.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
-/usr/local/include/opencv2/flann/heap.h:
+/usr/local/include/opencv4/opencv2/core/cvdef.h:
+
+/usr/include/stdio.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
@@ -1676,6 +1688,8 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 /usr/include/c++/9/cstddef:
 
 /usr/include/c++/9/bits/basic_string.tcc:
+
+/usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp:
 
 /usr/include/c++/9/utility:
 
@@ -1699,8 +1713,6 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/c++/9/bits/unique_ptr.h:
 
-/usr/local/include/opencv2/flann/saving.h:
-
 /usr/include/c++/9/bits/stl_function.h:
 
 /usr/include/c++/9/tuple:
@@ -1709,15 +1721,7 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/c++/9/stdexcept:
 
-/usr/local/include/opencv2/flann/general.h:
-
-/usr/local/include/opencv2/dnn/dnn.hpp:
-
-/usr/local/include/opencv2/core/cvstd.inl.hpp:
-
 /usr/include/c++/9/backward/binders.h:
-
-/usr/local/include/opencv2/core.hpp:
 
 /usr/include/c++/9/bits/shared_ptr.h:
 
@@ -1727,7 +1731,7 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/c++/9/bits/shared_ptr_base.h:
 
-/usr/local/include/opencv2/objdetect.hpp:
+/usr/local/include/opencv4/opencv2/flann/lsh_index.h:
 
 /usr/include/c++/9/bits/allocated_ptr.h:
 
@@ -1761,8 +1765,6 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/c++/9/ios:
 
-/usr/local/include/opencv2/imgcodecs.hpp:
-
 /usr/include/c++/9/bits/alloc_traits.h:
 
 /usr/include/c++/9/bits/stl_heap.h:
@@ -1775,13 +1777,15 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/c++/9/bits/locale_classes.h:
 
-/usr/local/include/opencv2/dnn/dnn.inl.hpp:
+/usr/local/include/opencv4/opencv2/flann/sampling.h:
 
 /usr/include/c++/9/bits/locale_facets.h:
 
 /home/roma/Desktop/code_struct_linux_slj/Part_Period/include/PeriodicTask.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/ctype_inline.h:
+
+/usr/local/include/opencv4/opencv2/flann/nn_index.h:
 
 /usr/include/c++/9/stdlib.h:
 
@@ -1792,8 +1796,6 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/c++/9/bits/locale_classes.tcc:
-
-/usr/local/include/opencv2/features2d.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
@@ -1815,37 +1817,41 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/ctype_base.h:
 
-/usr/local/include/opencv2/objdetect/graphical_code_detector.hpp:
-
 /usr/include/c++/9/bits/streambuf_iterator.h:
 
 /usr/include/c++/9/istream:
 
-/usr/include/c++/9/bits/fs_dir.h:
+/usr/local/include/opencv4/opencv2/core/cuda.hpp:
 
-/usr/local/include/opencv2/dnn/layer.hpp:
+/usr/include/c++/9/bits/unordered_map.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+/usr/local/include/opencv4/opencv2/opencv.hpp:
 
-/usr/local/include/opencv2/core/cvstd.hpp:
+/usr/local/include/opencv4/opencv2/core/hal/interface.h:
 
-/usr/local/include/opencv2/opencv.hpp:
-
-/usr/local/include/opencv2/core/version.hpp:
-
-/usr/local/include/opencv2/core/hal/interface.h:
+/usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/emmintrin.h:
 
-/usr/local/include/opencv2/dnn/version.hpp:
+/usr/include/c++/9/clocale:
+
+/usr/include/c++/9/bits/refwrap.h:
+
+/usr/include/c++/9/unordered_map:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/xmmintrin.h:
 
 /usr/include/c++/9/bits/uniform_int_dist.h:
+
+/usr/local/include/opencv4/opencv2/core.hpp:
 
 /usr/include/c++/9/climits:
 
 /usr/include/c++/9/string:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h:
+
+/usr/local/include/opencv4/opencv2/flann/timer.h:
 
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
@@ -1859,19 +1865,9 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 
 /usr/include/c++/9/algorithm:
 
-/usr/local/include/opencv2/objdetect/face.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
 /usr/include/c++/9/bits/std_function.h:
-
-/usr/include/c++/9/clocale:
-
-/usr/include/c++/9/bits/refwrap.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/xmmintrin.h:
-
-/usr/include/c++/9/unordered_map:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
@@ -1882,6 +1878,8 @@ Part_HardwareCom/CMakeFiles/HardwareCom.dir/src/UartCommunication.cpp.o: /home/r
 /usr/include/c++/9/bits/hashtable.h:
 
 /usr/include/c++/9/shared_mutex:
+
+/usr/local/include/opencv4/opencv2/core/utils/logtag.hpp:
 
 /usr/include/c++/9/bits/hashtable_policy.h:
 

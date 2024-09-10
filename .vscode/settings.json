@@ -75,7 +75,20 @@
         "set": "cpp",
         "text_encoding": "cpp",
         "cinttypes": "cpp",
-        "codecvt": "cpp"
+        "codecvt": "cpp",
+        "qpaintevent": "cpp",
+        "qmargins": "cpp",
+        "qtprintsupport": "cpp",
+        "qwidget": "cpp",
+        "qqueue": "cpp",
+        "qthread": "cpp",
+        "*.ui": "cpp",
+        "qapplication": "cpp",
+        "qobject": "cpp",
+        "qopenglcontext": "cpp",
+        "qtnumeric": "cpp",
+        "qmutexlocker": "cpp",
+        "filesystem": "cpp"
     },
     "qtConfigure.qtKitDir": "/home/roma/Qt/6.2.4/gcc_64"
 }

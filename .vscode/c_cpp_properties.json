@@ -9,9 +9,9 @@
                 "${workspaceFolder}/Part_Period/include",
                 "${workspaceFolder}/Part_HardwareCom/include",
                 "${workspaceFolder}/Part_Robotrunner/include",
-                "${workspaceFolder}/Part_Threadpool/include",
-                "${workspaceFolder}/Part_QT/include",
-                "${workspaceFolder}/data_struct"
+                "${workspaceFolder}/QT",
+                "${workspaceFolder}/data_struct",
+                "/home/roma/Qt/6.2.4/gcc_64/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

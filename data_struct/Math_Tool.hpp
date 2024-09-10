@@ -12,4 +12,21 @@ T clamp(T value, T lower, T upper) {
     }
 }
 
+
+template<typename T>
+class LowPassFilter {
+public:
+    T previousFilteredValue;
+    T alpha;
+    LowPassFilter(T initialFilteredValue, T initialAlpha)
+        : previousFilteredValue(initialFilteredValue), alpha(initialAlpha) {}
+    LowPassFilter() {}
+
+    T filter(T currentValue) {
+        T filteredValue = alpha * currentValue + (1 - alpha) * previousFilteredValue;
+        previousFilteredValue = filteredValue;
+        return filteredValue;
+    }
+};
+
 #endif

@@ -92,9 +92,8 @@ code_struct_EXTERNAL_OBJECTS =
 
 bin/code_struct: CMakeFiles/code_struct.dir/main.cpp.o
 bin/code_struct: CMakeFiles/code_struct.dir/build.make
-bin/code_struct: /home/roma/Desktop/code_struct_linux_slj/lib/libRobotrunner.so
 bin/code_struct: /home/roma/Desktop/code_struct_linux_slj/lib/libHardwareCom.so
-bin/code_struct: /home/roma/Desktop/code_struct_linux_slj/lib/libPeriod.so
+bin/code_struct: /home/roma/Desktop/code_struct_linux_slj/lib/libRobotrunner.so
 bin/code_struct: /usr/local/lib/libopencv_gapi.so.4.10.0
 bin/code_struct: /usr/local/lib/libopencv_highgui.so.4.10.0
 bin/code_struct: /usr/local/lib/libopencv_ml.so.4.10.0
@@ -103,6 +102,9 @@ bin/code_struct: /usr/local/lib/libopencv_photo.so.4.10.0
 bin/code_struct: /usr/local/lib/libopencv_stitching.so.4.10.0
 bin/code_struct: /usr/local/lib/libopencv_video.so.4.10.0
 bin/code_struct: /usr/local/lib/libopencv_videoio.so.4.10.0
+bin/code_struct: /home/roma/Qt/6.2.4/gcc_64/lib/libQt6PrintSupport.so.6.2.4
+bin/code_struct: /home/roma/Desktop/code_struct_linux_slj/lib/libRealtimeCurvePlot.so
+bin/code_struct: /home/roma/Desktop/code_struct_linux_slj/lib/libPeriod.so
 bin/code_struct: /usr/local/lib/libopencv_imgcodecs.so.4.10.0
 bin/code_struct: /usr/local/lib/libopencv_dnn.so.4.10.0
 bin/code_struct: /usr/local/lib/libopencv_calib3d.so.4.10.0
@@ -110,6 +112,11 @@ bin/code_struct: /usr/local/lib/libopencv_features2d.so.4.10.0
 bin/code_struct: /usr/local/lib/libopencv_flann.so.4.10.0
 bin/code_struct: /usr/local/lib/libopencv_imgproc.so.4.10.0
 bin/code_struct: /usr/local/lib/libopencv_core.so.4.10.0
+bin/code_struct: /home/roma/Qt/6.2.4/gcc_64/lib/libQt6Widgets.so.6.2.4
+bin/code_struct: /home/roma/Qt/6.2.4/gcc_64/lib/libQt6Gui.so.6.2.4
+bin/code_struct: /home/roma/Qt/6.2.4/gcc_64/lib/libQt6Core.so.6.2.4
+bin/code_struct: /usr/lib/x86_64-linux-gnu/libGLX.so
+bin/code_struct: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 bin/code_struct: CMakeFiles/code_struct.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/roma/Desktop/code_struct_linux_slj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/code_struct"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/code_struct.dir/link.txt --verbose=$(VERBOSE)

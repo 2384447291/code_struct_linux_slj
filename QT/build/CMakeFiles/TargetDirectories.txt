@@ -1,0 +1,4 @@
+/home/roma/Desktop/code_struct_linux_slj/QT/build/CMakeFiles/RealtimeCurvePlot.dir
+/home/roma/Desktop/code_struct_linux_slj/QT/build/CMakeFiles/edit_cache.dir
+/home/roma/Desktop/code_struct_linux_slj/QT/build/CMakeFiles/rebuild_cache.dir
+/home/roma/Desktop/code_struct_linux_slj/QT/build/CMakeFiles/RealtimeCurvePlot_autogen.dir

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DHardwareCom_EXPORTS
 
-CXX_INCLUDES = -I/home/roma/Desktop/code_struct_linux_slj/Part_HardwareCom/./include -I/home/roma/Desktop/code_struct_linux_slj/Part_HardwareCom/../Part_Period/include -I/home/roma/Desktop/code_struct_linux_slj/Part_HardwareCom/../data_struct -I/home/roma/Desktop/code_struct_linux_slj/Part_HardwareCom/../motor
+CXX_INCLUDES = -I/home/roma/Desktop/code_struct_linux_slj/Part_HardwareCom/./include -I/home/roma/Desktop/code_struct_linux_slj/Part_HardwareCom/../Part_Period/include -I/home/roma/Desktop/code_struct_linux_slj/Part_HardwareCom/../data_struct -I/home/roma/Desktop/code_struct_linux_slj/Part_HardwareCom/../motor -isystem /usr/local/include/opencv4
 
 CXX_FLAGS = -fPIC -std=gnu++2a
 

@@ -25,6 +25,7 @@ enum init_state{
 class DisplacementStageController : public RobotController
 {
     public:
+        LowPassFilter<double> Pos_filter[3];
         DMmotor m_OrbitMotor[3];
         float m_position_set[3];
         bool m_Is_motor_init[3] = {false, false, false};
@@ -59,7 +60,7 @@ class DisplacementStageController : public RobotController
         if(m_Is_motor_init[x])
         {
             m_position_set[x] = clamp(m_position_set[x],(float)X_MIN,(float)X_MAX);
-            m_OrbitMotor[x].control_p_des =-m_position_set[x];
+            m_OrbitMotor[x].control_p_des = -Pos_filter[x].filter(m_position_set[x]);          
         }
         else
         {
@@ -111,14 +112,15 @@ class DisplacementStageController : public RobotController
                     m_OrbitMotor[i].control_v_des = 20.0f;
                     m_OrbitMotor[i].control_torque = 0.0;
                     m_position_set[i] = -m_OrbitMotor[i].control_p_des;
+                    Pos_filter[i].previousFilteredValue = m_position_set[i];
+                    Pos_filter[i].alpha = 0.01;
                     if(abs(m_OrbitMotor[i].feedback_pos-m_OrbitMotor[i].control_p_des)<0.05f) 
                     {
                         m_Is_motor_init[i] = true;
-                        m_OrbitMotor[i].m_MotorMode = MotorMode::PID_MODE;
+                        m_OrbitMotor[i].m_MotorMode = MotorMode::MIT_MODE;
                         m_OrbitMotor[i].control_v_des = 0.0f;
                         m_OrbitMotor[i].control_k_d = 1.0f;
-                        m_OrbitMotor[i].control_k_p = 0.5f;
-                        m_OrbitMotor[i].control_k_i = 0.005f;
+                        m_OrbitMotor[i].control_k_p = 10.0f;
                     } 
                 }
             }
