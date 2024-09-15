@@ -29,4 +29,12 @@ public:
     }
 };
 
+std::string formatNumber(int value, int digits) {
+    std::string formatted = std::to_string(value);
+    while (formatted.length() < digits) {
+        formatted = "0" + formatted;
+    }
+    return formatted;
+}
+
 #endif

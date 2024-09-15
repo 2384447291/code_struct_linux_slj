@@ -6,7 +6,7 @@
 #include "Timer.h"
 #include "Math_Tool.hpp"
 
-#define X_MAX 150
+#define X_MAX 125
 #define X_MIN 0
 
 //右手坐标系

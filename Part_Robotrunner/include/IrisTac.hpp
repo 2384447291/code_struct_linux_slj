@@ -29,17 +29,17 @@ class IrisTac : public Robot_part
             // 设置 LED 颜色
             for (int i = 0; i < LED_REGIN; ++i) {
                 LED_list[i][0] = 255; // Red
-                LED_list[i][1] = 0;
-                LED_list[i][2] = 0;
+                LED_list[i][1] = 255;
+                LED_list[i][2] = 255;
             }
             for (int i = LED_REGIN; i < 2 * LED_REGIN; ++i) {
-                LED_list[i][0] = 0;
+                LED_list[i][0] = 255;
                 LED_list[i][1] = 255; // Green
-                LED_list[i][2] = 0;
+                LED_list[i][2] = 255;
             }
             for (int i = 2 * LED_REGIN; i < 3 * LED_REGIN; ++i) {
-                LED_list[i][0] = 0;
-                LED_list[i][1] = 0;
+                LED_list[i][0] = 255;
+                LED_list[i][1] = 255;
                 LED_list[i][2] = 255; // Blue
             }
         }
@@ -114,13 +114,13 @@ class IrisTac : public Robot_part
                     }
                     for (int i = LED_REGIN; i < 2 * LED_REGIN; ++i) {
                         LED_list[i][0] = 255;
-                        LED_list[i][1] = 0; // Green
+                        LED_list[i][1] = 0; 
                         LED_list[i][2] = 0;
                     }
                     for (int i = 2 * LED_REGIN; i < 3 * LED_REGIN; ++i) {
                         LED_list[i][0] = 255;
                         LED_list[i][1] = 0;
-                        LED_list[i][2] = 0; // Blue
+                        LED_list[i][2] = 0; 
                     }
                     break;
                 case split_three_color:
@@ -145,7 +145,32 @@ class IrisTac : public Robot_part
                     need_change_color = true;
                 }
             }
-
+        }
+        void Single_light(uint8_t LED_ID, uint8_t color, uint8_t bright)
+        {
+            for(int i = 0; i < LED_NUM; i++)
+            {
+                if(i == LED_ID)
+                {
+                    for(int j = 0;j < LED_DATA; j++)
+                    {
+                        if(j == color)
+                        {
+                            LED_list[i][j] = bright;
+                        }
+                        else{
+                            LED_list[i][j] = 0;
+                        }
+                    }
+                }
+                else
+                {
+                    LED_list[i][0] = 0;
+                    LED_list[i][1] = 0;
+                    LED_list[i][2] = 0;                   
+                }
+            }
+            need_change_color = true;
         }
 
     private:

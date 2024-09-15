@@ -6,8 +6,8 @@ class IrisTac_Project : public RobotRunner
 {
     public:
         IrisTac_Project():RobotRunner(this){}
-        DisplacementStageController m_DisplacementStageController;
-        //IrisTacController m_IrisTacController;
+        //DisplacementStageController m_DisplacementStageController;
+        IrisTacController m_IrisTacController;
 };
 
 #endif

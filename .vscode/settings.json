@@ -88,7 +88,8 @@
         "qopenglcontext": "cpp",
         "qtnumeric": "cpp",
         "qmutexlocker": "cpp",
-        "filesystem": "cpp"
+        "filesystem": "cpp",
+        "source_location": "cpp"
     },
     "qtConfigure.qtKitDir": "/home/roma/Qt/6.2.4/gcc_64"
 }
