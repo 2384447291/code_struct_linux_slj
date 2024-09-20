@@ -271,34 +271,34 @@ QT_ADDITIONAL_HOST_PACKAGES_PREFIX_PATH:STRING=
 QT_ADDITIONAL_PACKAGES_PREFIX_PATH:STRING=
 
 //The directory containing a CMake configuration file for Qt6CoreTools.
-Qt6CoreTools_DIR:PATH=/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6CoreTools
+Qt6CoreTools_DIR:PATH=/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6CoreTools
 
 //The directory containing a CMake configuration file for Qt6Core.
-Qt6Core_DIR:PATH=/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Core
+Qt6Core_DIR:PATH=/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Core
 
 //The directory containing a CMake configuration file for Qt6DBusTools.
-Qt6DBusTools_DIR:PATH=/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6DBusTools
+Qt6DBusTools_DIR:PATH=/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6DBusTools
 
 //The directory containing a CMake configuration file for Qt6DBus.
-Qt6DBus_DIR:PATH=/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6DBus
+Qt6DBus_DIR:PATH=/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6DBus
 
 //The directory containing a CMake configuration file for Qt6GuiTools.
-Qt6GuiTools_DIR:PATH=/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6GuiTools
+Qt6GuiTools_DIR:PATH=/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6GuiTools
 
 //The directory containing a CMake configuration file for Qt6Gui.
-Qt6Gui_DIR:PATH=/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Gui
+Qt6Gui_DIR:PATH=/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Gui
 
 //The directory containing a CMake configuration file for Qt6PrintSupport.
-Qt6PrintSupport_DIR:PATH=/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6PrintSupport
+Qt6PrintSupport_DIR:PATH=/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6PrintSupport
 
 //The directory containing a CMake configuration file for Qt6WidgetsTools.
-Qt6WidgetsTools_DIR:PATH=/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6WidgetsTools
+Qt6WidgetsTools_DIR:PATH=/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6WidgetsTools
 
 //The directory containing a CMake configuration file for Qt6Widgets.
-Qt6Widgets_DIR:PATH=/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Widgets
+Qt6Widgets_DIR:PATH=/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Widgets
 
 //The directory containing a CMake configuration file for Qt6.
-Qt6_DIR:PATH=/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6
+Qt6_DIR:PATH=/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6
 
 //Value Computed by CMake
 Robotrunner_BINARY_DIR:STATIC=/home/roma/Desktop/code_struct_linux_slj/build/Part_Robotrunner
@@ -426,7 +426,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Test CMAKE_HAVE_LIBC_PTHREAD
-CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
+CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/home/roma/Desktop/code_struct_linux_slj
@@ -1273,6 +1273,8 @@ QT_FEATURE_xmlstreamwriter:INTERNAL=ON
 QT_FEATURE_xrender:INTERNAL=OFF
 //Qt feature: zstd (from target Qt6::Core)
 QT_FEATURE_zstd:INTERNAL=OFF
+//Result of TRY_COMPILE
+THREADS_HAVE_PTHREAD_ARG:INTERNAL=TRUE
 //ADVANCED property for variable: Vulkan_GLSLANG_VALIDATOR_EXECUTABLE
 Vulkan_GLSLANG_VALIDATOR_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Vulkan_GLSLC_EXECUTABLE

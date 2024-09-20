@@ -6,10 +6,8 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
   /home/roma/Desktop/code_struct_linux_slj/Part_Period/include/Timer.h \
   /usr/include/assert.h \
   /usr/include/features.h \
-  /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -17,6 +15,7 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
   /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
@@ -116,7 +115,6 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
@@ -142,8 +140,6 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
   /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
   /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
   /usr/include/x86_64-linux-gnu/c++/9/bits/atomic_word.h \
   /usr/include/c++/9/string_view \
   /usr/include/c++/9/bits/functional_hash.h \
@@ -156,6 +152,7 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
   /usr/include/c++/9/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -447,7 +444,6 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
   /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
   /usr/include/linux/falloc.h \
   /usr/include/x86_64-linux-gnu/bits/stat.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
   /usr/include/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
@@ -482,387 +478,387 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
   /usr/include/dirent.h \
   /usr/include/x86_64-linux-gnu/bits/dirent.h \
   /usr/include/x86_64-linux-gnu/bits/dirent_ext.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/QApplication \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qapplication.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtguiglobal.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qglobal.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qconfig.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtcore-config.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsystemdetection.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qprocessordetection.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcompilerdetection.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtypeinfo.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcontainerfwd.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/QApplication \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qapplication.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtguiglobal.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qglobal.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qconfig.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtcore-config.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsystemdetection.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qprocessordetection.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcompilerdetection.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtypeinfo.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcontainerfwd.h \
   /usr/include/c++/9/variant \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsysinfo.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qlogging.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qflags.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qatomic.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbasicatomic.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qatomic_cxx11.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qgenericatomic.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsysinfo.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qlogging.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qflags.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qatomic.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbasicatomic.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qatomic_cxx11.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qgenericatomic.h \
   /usr/include/c++/9/atomic \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qglobalstatic.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qnumeric.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qversiontagging.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtgui-config.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtwidgets-config.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcoreapplication.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstring.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qchar.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstringview.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbytearray.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qrefcount.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qnamespace.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtmetamacros.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qarraydata.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qpair.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qarraydatapointer.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qarraydataops.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcontainertools_impl.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qglobalstatic.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qnumeric.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qversiontagging.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtgui-config.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtwidgets-config.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcoreapplication.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstring.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qchar.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstringview.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbytearray.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qrefcount.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qnamespace.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtmetamacros.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qarraydata.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qpair.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qarraydatapointer.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qarraydataops.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcontainertools_impl.h \
   /usr/include/c++/9/iterator \
   /usr/include/c++/9/bits/stream_iterator.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbytearrayalgorithms.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbytearrayview.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstringliteral.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstringalgorithms.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qanystringview.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qutf8stringview.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstringtokenizer.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcoreevent.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qobjectdefs.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qobjectdefs_impl.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qeventloop.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qobject.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qlist.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qhashfunctions.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbytearrayalgorithms.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbytearrayview.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstringliteral.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstringalgorithms.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qanystringview.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qutf8stringview.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstringtokenizer.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcoreevent.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qobjectdefs.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qobjectdefs_impl.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qeventloop.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qobject.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qlist.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qhashfunctions.h \
   /usr/include/c++/9/numeric \
   /usr/include/c++/9/bits/stl_numeric.h \
   /usr/include/c++/9/pstl/glue_numeric_defs.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qiterator.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbytearraylist.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstringlist.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qalgorithms.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstringmatcher.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qscopedpointer.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmetatype.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcompare.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qvarlengtharray.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qscopeguard.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qdatastream.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qiodevicebase.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qiterable.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmetacontainer.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcontainerinfo.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtaggedpointer.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmath.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qobject_impl.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbindingstorage.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qnativeinterface.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qdebug.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qhash.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmap.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qshareddata.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qshareddata_impl.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtextstream.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstringconverter.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qset.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcontiguouscache.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsharedpointer.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsharedpointer_impl.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcoreapplication_platform.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qwindowdefs.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qpoint.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsize.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmargins.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qcursor.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qbitmap.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpixmap.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpaintdevice.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qrect.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qcolor.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qrgb.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qrgba64.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qimage.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpixelformat.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtransform.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpolygon.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qregion.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qline.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qguiapplication.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qinputmethod.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qlocale.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qvariant.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qguiapplication_platform.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qiterator.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbytearraylist.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstringlist.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qalgorithms.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstringmatcher.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qscopedpointer.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmetatype.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcompare.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qvarlengtharray.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qscopeguard.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qdatastream.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qiodevicebase.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qiterable.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmetacontainer.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcontainerinfo.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtaggedpointer.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmath.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qobject_impl.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbindingstorage.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qnativeinterface.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qdebug.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qhash.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmap.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qshareddata.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qshareddata_impl.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtextstream.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstringconverter.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qset.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcontiguouscache.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsharedpointer.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsharedpointer_impl.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcoreapplication_platform.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qwindowdefs.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qpoint.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsize.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmargins.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qcursor.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qbitmap.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpixmap.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpaintdevice.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qrect.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qcolor.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qrgb.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qrgba64.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qimage.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpixelformat.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtransform.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpolygon.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qregion.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qline.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qguiapplication.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qinputmethod.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qlocale.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qvariant.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qguiapplication_platform.h \
   /home/roma/Desktop/code_struct_linux_slj/QT/mainwindow.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qwidget.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpalette.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qbrush.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qfont.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qfontmetrics.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qfontinfo.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qsizepolicy.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qkeysequence.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qwidget.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpalette.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qbrush.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qfont.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qfontmetrics.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qfontinfo.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qsizepolicy.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qkeysequence.h \
   /home/roma/Desktop/code_struct_linux_slj/QT/curveplotfifo.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QObject \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qobject.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QPair \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qpair.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QMutex \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmutex.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QQueue \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qqueue.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QObject \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qobject.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QPair \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qpair.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QMutex \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmutex.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QQueue \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qqueue.h \
   /home/roma/Desktop/code_struct_linux_slj/QT/realtimecurveplot.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/QWidget \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qwidget.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/QWidget \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qwidget.h \
   /home/roma/Desktop/code_struct_linux_slj/QT/qcustomplot.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QPointer \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qpointer.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QSharedPointer \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsharedpointer.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QTimer \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtimer.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbasictimer.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/QPainter \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpainter.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtextoption.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpen.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/QPainterPath \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpainterpath.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/QPaintEvent \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qevent.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qiodevice.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qpointer.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qurl.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qeventpoint.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qvector2d.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qvectornd.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpointingdevice.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qinputdevice.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qscreen.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QList \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qlist.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QRect \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qrect.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QSize \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsize.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QSizeF \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/QTransform \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtransform.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/QMouseEvent \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/QWheelEvent \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/QPixmap \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpixmap.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QVector \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qvector.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QString \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstring.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QDateTime \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qdatetime.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcalendar.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QMultiMap \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmap.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QFlags \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qflags.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QDebug \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qdebug.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QStack \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstack.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QCache \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcache.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QMargins \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmargins.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QtNumeric \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qnumeric.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/QtPrintSupport \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/QtPrintSupportDepends \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QtCore \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QtCoreDepends \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qglobal.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qabstractanimation.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qabstracteventdispatcher.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qabstractitemmodel.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qabstractnativeeventfilter.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qabstractproxymodel.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qabstractitemmodel.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qalgorithms.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qanimationgroup.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qabstractanimation.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qanystringview.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qarraydata.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qarraydataops.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qarraydatapointer.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qassociativeiterable.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qatomic.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbasictimer.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbindingstorage.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbitarray.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbuffer.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbytearray.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbytearrayalgorithms.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbytearraylist.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbytearraymatcher.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbytearrayview.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcalendar.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcborarray.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcborvalue.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qdatetime.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcborcommon.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qregularexpression.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/quuid.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcborcommon.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcbormap.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcborstream.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcborstreamreader.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfloat16.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcborstreamwriter.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcborstreamreader.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcborstreamwriter.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcborvalue.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qchar.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcollator.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcommandlineoption.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcommandlineparser.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcommandlineoption.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcompare.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcompilerdetection.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qconcatenatetablesproxymodel.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcontainerfwd.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcontainerinfo.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcontiguouscache.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcoreapplication.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcoreevent.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcryptographichash.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qdatastream.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qdeadlinetimer.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qelapsedtimer.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qdir.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfile.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfiledevice.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QPointer \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qpointer.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QSharedPointer \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsharedpointer.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QTimer \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtimer.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbasictimer.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QPainter \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpainter.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtextoption.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpen.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QPainterPath \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpainterpath.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QPaintEvent \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qevent.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qiodevice.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qpointer.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qurl.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qeventpoint.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qvector2d.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qvectornd.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpointingdevice.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qinputdevice.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qscreen.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QList \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qlist.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QRect \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qrect.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QSize \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsize.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QSizeF \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QTransform \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtransform.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QMouseEvent \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QWheelEvent \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QPixmap \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpixmap.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QVector \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qvector.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QString \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstring.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QDateTime \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qdatetime.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcalendar.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QMultiMap \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmap.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QFlags \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qflags.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QDebug \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qdebug.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QStack \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstack.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QCache \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcache.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QMargins \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmargins.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QtNumeric \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qnumeric.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/QtPrintSupport \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/QtPrintSupportDepends \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QtCore \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QtCoreDepends \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qglobal.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qabstractanimation.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qabstracteventdispatcher.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qabstractitemmodel.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qabstractnativeeventfilter.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qabstractproxymodel.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qabstractitemmodel.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qalgorithms.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qanimationgroup.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qabstractanimation.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qanystringview.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qarraydata.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qarraydataops.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qarraydatapointer.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qassociativeiterable.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qatomic.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbasictimer.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbindingstorage.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbitarray.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbuffer.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbytearray.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbytearrayalgorithms.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbytearraylist.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbytearraymatcher.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbytearrayview.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcalendar.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcborarray.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcborvalue.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qdatetime.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcborcommon.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qregularexpression.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/quuid.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcborcommon.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcbormap.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcborstream.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcborstreamreader.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfloat16.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcborstreamwriter.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcborstreamreader.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcborstreamwriter.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcborvalue.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qchar.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcollator.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcommandlineoption.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcommandlineparser.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcommandlineoption.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcompare.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcompilerdetection.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qconcatenatetablesproxymodel.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcontainerfwd.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcontainerinfo.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcontiguouscache.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcoreapplication.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcoreevent.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcryptographichash.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qdatastream.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qdeadlinetimer.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qelapsedtimer.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qdir.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfile.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfiledevice.h \
   /usr/include/c++/9/filesystem \
   /usr/include/c++/9/bits/fs_fwd.h \
   /usr/include/c++/9/bits/fs_path.h \
   /usr/include/c++/9/codecvt \
   /usr/include/c++/9/bits/fs_dir.h \
   /usr/include/c++/9/bits/fs_ops.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfileinfo.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qdiriterator.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qdir.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qeasingcurve.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qelapsedtimer.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qendian.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qeventloop.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qexception.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfactoryinterface.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfile.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfiledevice.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfileinfo.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfileselector.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QStringList \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstringlist.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfilesystemwatcher.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfuture.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfutureinterface.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmutex.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qresultstore.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfuture_impl.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qthreadpool.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qthread.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qdeadlinetimer.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfileinfo.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qdiriterator.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qdir.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qeasingcurve.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qelapsedtimer.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qendian.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qeventloop.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qexception.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfactoryinterface.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfile.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfiledevice.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfileinfo.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfileselector.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QStringList \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstringlist.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfilesystemwatcher.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfuture.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfutureinterface.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmutex.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qresultstore.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfuture_impl.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qthreadpool.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qthread.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qdeadlinetimer.h \
   /usr/include/c++/9/future \
   /usr/include/c++/9/bits/atomic_futex.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qrunnable.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qexception.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qpromise.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfutureinterface.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfuturesynchronizer.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfuture.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfuturewatcher.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qgenericatomic.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qglobalstatic.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qhash.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qhashfunctions.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qidentityproxymodel.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qabstractproxymodel.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qiodevice.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qiodevicebase.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qitemselectionmodel.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qiterable.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qiterator.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qjnienvironment.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QScopedPointer \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qscopedpointer.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qjniobject.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qjsonarray.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qjsonvalue.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qjsondocument.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qjsonobject.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qjsonvalue.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qlibrary.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qlibraryinfo.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qversionnumber.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qline.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qlocale.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qlockfile.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qloggingcategory.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmath.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmessageauthenticationcode.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcryptographichash.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmetacontainer.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmetaobject.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmetatype.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmimedata.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmimedatabase.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmimetype.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmimetype.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qnamespace.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qnativeinterface.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qobjectcleanuphandler.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qobjectdefs.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qoperatingsystemversion.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qparallelanimationgroup.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qanimationgroup.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qpauseanimation.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qplugin.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qjsonobject.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qpluginloader.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qlibrary.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qplugin.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qpoint.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qprocess.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qprocessordetection.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qpromise.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qproperty.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qpropertyprivate.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qrunnable.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qexception.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qpromise.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfutureinterface.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfuturesynchronizer.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfuture.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfuturewatcher.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qgenericatomic.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qglobalstatic.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qhash.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qhashfunctions.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qidentityproxymodel.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qabstractproxymodel.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qiodevice.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qiodevicebase.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qitemselectionmodel.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qiterable.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qiterator.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qjnienvironment.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QScopedPointer \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qscopedpointer.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qjniobject.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qjsonarray.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qjsonvalue.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qjsondocument.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qjsonobject.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qjsonvalue.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qlibrary.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qlibraryinfo.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qversionnumber.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qline.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qlocale.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qlockfile.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qloggingcategory.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmath.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmessageauthenticationcode.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcryptographichash.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmetacontainer.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmetaobject.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmetatype.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmimedata.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmimedatabase.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmimetype.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmimetype.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qnamespace.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qnativeinterface.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qobjectcleanuphandler.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qobjectdefs.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qoperatingsystemversion.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qparallelanimationgroup.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qanimationgroup.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qpauseanimation.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qplugin.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qjsonobject.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qpluginloader.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qlibrary.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qplugin.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qpoint.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qprocess.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qprocessordetection.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qpromise.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qproperty.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qpropertyprivate.h \
   /usr/include/c++/9/experimental/source_location \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qpropertyanimation.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qvariantanimation.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qeasingcurve.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qpropertyprivate.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qrandom.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qpropertyanimation.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qvariantanimation.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qeasingcurve.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qpropertyprivate.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qrandom.h \
   /usr/include/c++/9/random \
   /usr/include/c++/9/bits/random.h \
   /usr/include/x86_64-linux-gnu/c++/9/bits/opt_random.h \
   /usr/include/c++/9/bits/random.tcc \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qreadwritelock.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qrefcount.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qregularexpression.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qresource.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qresultstore.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qrunnable.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsavefile.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qscopedvaluerollback.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qscopeguard.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsemaphore.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsequentialanimationgroup.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsequentialiterable.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qset.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsettings.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qshareddata.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsharedmemory.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsignalmapper.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsimd.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qreadwritelock.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qrefcount.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qregularexpression.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qresource.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qresultstore.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qrunnable.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsavefile.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qscopedvaluerollback.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qscopeguard.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsemaphore.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsequentialanimationgroup.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsequentialiterable.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qset.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsettings.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qshareddata.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsharedmemory.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsignalmapper.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsimd.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/immintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/pmmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/tmmintrin.h \
@@ -922,622 +918,600 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
   /usr/lib/gcc/x86_64-linux-gnu/9/include/clflushoptintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/wbnoinvdintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/pkuintrin.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsocketnotifier.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsortfilterproxymodel.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstandardpaths.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstorageinfo.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstringalgorithms.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstringbuilder.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstringconverter.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstringlistmodel.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstringliteral.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstringmatcher.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstringtokenizer.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstringview.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsysinfo.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsystemdetection.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsystemsemaphore.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtaggedpointer.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtemporarydir.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtemporaryfile.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtextboundaryfinder.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtextstream.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qthread.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qthreadpool.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qthreadstorage.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtimeline.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtimezone.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtmetamacros.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtranslator.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtransposeproxymodel.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtypeinfo.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qurl.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qurlquery.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qutf8stringview.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/quuid.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qvariant.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qvariantanimation.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qvarlengtharray.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qversionnumber.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qversiontagging.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qwaitcondition.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QDeadlineTimer \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qwineventnotifier.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qxmlstream.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtcoreversion.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/QtGui \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/QtGuiDepends \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtguiglobal.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qabstractfileiconprovider.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qicon.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qabstracttextdocumentlayout.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtextlayout.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qevent.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qglyphrun.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qrawfont.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qfontdatabase.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtextcursor.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtextformat.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtextdocument.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qaccessible.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qaccessiblebridge.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfactoryinterface.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qaccessibleobject.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qaccessible.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qaccessibleplugin.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qaction.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qactiongroup.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qaction.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qbackingstore.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qwindow.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QEvent \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qsurface.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qsurfaceformat.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qbitmap.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qbrush.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qclipboard.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qcolor.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qcolorspace.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qcolortransform.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qcolortransform.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qcursor.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qdesktopservices.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qdrag.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qeventpoint.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qfilesystemmodel.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qdiriterator.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qfont.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qfontdatabase.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qfontinfo.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qfontmetrics.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qgenericmatrix.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qgenericplugin.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qgenericpluginfactory.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qglyphrun.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qguiapplication.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qicon.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qiconengine.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qiconengineplugin.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qimage.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qimageiohandler.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qimagereader.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qimageiohandler.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qimagewriter.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qinputdevice.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qinputmethod.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qkeysequence.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qmatrix4x4.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qvector3d.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qvector4d.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qquaternion.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qgenericmatrix.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qmovie.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qimagereader.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qoffscreensurface.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qoffscreensurface_platform.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qoffscreensurface.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qopengl.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsocketnotifier.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsortfilterproxymodel.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstandardpaths.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstorageinfo.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstringalgorithms.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstringbuilder.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstringconverter.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstringlistmodel.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstringliteral.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstringmatcher.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstringtokenizer.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstringview.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsysinfo.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsystemdetection.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsystemsemaphore.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtaggedpointer.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtemporarydir.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtemporaryfile.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtextboundaryfinder.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtextstream.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qthread.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qthreadpool.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qthreadstorage.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtimeline.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtimezone.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtmetamacros.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtranslator.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtransposeproxymodel.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtypeinfo.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qurl.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qurlquery.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qutf8stringview.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/quuid.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qvariant.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qvariantanimation.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qvarlengtharray.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qversionnumber.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qversiontagging.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qwaitcondition.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QDeadlineTimer \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qwineventnotifier.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qxmlstream.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtcoreversion.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QtGui \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QtGuiDepends \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtguiglobal.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qabstractfileiconprovider.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qicon.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qabstracttextdocumentlayout.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtextlayout.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qevent.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qglyphrun.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qrawfont.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qfontdatabase.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtextcursor.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtextformat.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtextdocument.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qaccessible.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qaccessiblebridge.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfactoryinterface.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qaccessibleobject.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qaccessible.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qaccessibleplugin.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qaction.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qactiongroup.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qaction.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qbackingstore.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qwindow.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QEvent \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qsurface.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qsurfaceformat.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qbitmap.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qbrush.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qclipboard.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qcolor.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qcolorspace.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qcolortransform.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qcolortransform.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qcursor.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qdesktopservices.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qdrag.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qeventpoint.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qfilesystemmodel.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qdiriterator.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qfont.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qfontdatabase.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qfontinfo.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qfontmetrics.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qgenericmatrix.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qgenericplugin.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qgenericpluginfactory.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qglyphrun.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qguiapplication.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qicon.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qiconengine.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qiconengineplugin.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qimage.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qimageiohandler.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qimagereader.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qimageiohandler.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qimagewriter.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qinputdevice.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qinputmethod.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qkeysequence.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qmatrix4x4.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qvector3d.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qvector4d.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qquaternion.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qgenericmatrix.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qmovie.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qimagereader.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qoffscreensurface.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qoffscreensurface_platform.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qoffscreensurface.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qopengl.h \
   /usr/include/GL/gl.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qopenglext.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qopenglext.h \
   /usr/include/inttypes.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qopenglcontext.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/QSurfaceFormat \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qsurfaceformat.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qopengl.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qopenglcontext_platform.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qopenglcontext.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qopenglextrafunctions.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qopenglfunctions.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qopenglfunctions.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpagedpaintdevice.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpagelayout.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpagesize.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpageranges.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpagelayout.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpageranges.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpagesize.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpaintdevice.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpaintdevicewindow.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/QWindow \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qwindow.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/QPaintDevice \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpaintengine.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpainter.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpalette.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpdfwriter.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpagedpaintdevice.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpen.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpicture.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpixelformat.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpixmapcache.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpointingdevice.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpolygon.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qquaternion.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qrasterwindow.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/QPaintDeviceWindow \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qrawfont.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qregion.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qrgb.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qrgba64.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qrgbafloat.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qscreen.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qsessionmanager.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qshortcut.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qstandarditemmodel.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qstatictext.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qstylehints.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qsurface.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qsyntaxhighlighter.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtextobject.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtextcursor.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtextdocument.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtextdocumentfragment.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtextdocumentwriter.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtextformat.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtextlayout.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtextlist.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtextobject.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtextoption.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtexttable.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qundogroup.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qundostack.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qvalidator.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qvector2d.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qvector3d.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qvector4d.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qvectornd.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qwindowdefs.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtguiversion.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/QtWidgets \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/QtWidgetsDepends \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qabstractbutton.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qstyleoption.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qabstractspinbox.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qvalidator.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qslider.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qabstractslider.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qstyle.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtabbar.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtabwidget.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qrubberband.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qframe.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qabstractitemview.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qabstractscrollarea.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qitemselectionmodel.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qabstractscrollarea.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qabstractslider.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qabstractspinbox.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qaccessiblewidget.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qaccessibleobject.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qaction.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/QAction \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qactiongroup.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/QActionGroup \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qboxlayout.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qlayout.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qlayoutitem.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qboxlayout.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgridlayout.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qbuttongroup.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qcalendarwidget.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qcheckbox.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qabstractbutton.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qcolordialog.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qdialog.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qcolormap.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qcolumnview.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qabstractitemview.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qcombobox.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qcommandlinkbutton.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qpushbutton.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qcommonstyle.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qcompleter.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qdatawidgetmapper.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qdatetimeedit.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qdial.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qdialog.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qdialogbuttonbox.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qdockwidget.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qdrawutil.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qerrormessage.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qfiledialog.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qfileiconprovider.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qabstractfileiconprovider.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qfilesystemmodel.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/QFileSystemModel \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qfocusframe.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qfontcombobox.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qcombobox.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qfontdialog.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qformlayout.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/QLayout \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qlayout.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qframe.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgesture.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgesturerecognizer.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicsanchorlayout.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicsitem.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpainterpath.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicslayout.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicslayoutitem.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicseffect.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicsgridlayout.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicsitem.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicsitemanimation.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicslayout.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicslayoutitem.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicslinearlayout.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicsproxywidget.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicswidget.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicsscene.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicssceneevent.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicstransform.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/QVector3D \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/QMatrix4x4 \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicsview.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qscrollarea.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicsscene.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicswidget.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgridlayout.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgroupbox.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qheaderview.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qinputdialog.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qlineedit.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qitemdelegate.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qitemeditorfactory.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmetaobject.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qkeysequenceedit.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qlabel.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpicture.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qlayoutitem.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qlcdnumber.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qlineedit.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qlistview.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qlistwidget.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qlistview.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qmainwindow.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qmdiarea.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qmdisubwindow.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qmenu.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qmenubar.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qmenu.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qmessagebox.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qplaintextedit.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtextedit.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/qabstracttextdocumentlayout.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qprogressbar.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qprogressdialog.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qproxystyle.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/QCommonStyle \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qpushbutton.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qradiobutton.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qrubberband.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qscrollarea.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qscrollbar.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qscroller.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QPointF \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/QScrollerProperties \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qscrollerproperties.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QMetaType \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QVariant \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qshortcut.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtGui/QShortcut \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qsizegrip.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qsizepolicy.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qslider.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qspinbox.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qsplashscreen.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qsplitter.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qstackedlayout.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qstackedwidget.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qstatusbar.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qstyle.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qstyleditemdelegate.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qstylefactory.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qstyleoption.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qstylepainter.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qstyleplugin.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qsystemtrayicon.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtabbar.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtableview.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtablewidget.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtableview.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtabwidget.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtextbrowser.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtextedit.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtoolbar.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtoolbox.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtoolbutton.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtooltip.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtreeview.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtreewidget.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtreeview.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtreewidgetitemiterator.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtreewidgetitemiterator.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qundoview.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qwhatsthis.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qwidgetaction.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qwizard.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtwidgetsversion.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/qtprintsupportglobal.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/qtprintsupport-config.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/qabstractprintdialog.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/qtprintsupportglobal.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/qpagesetupdialog.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/qprintdialog.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/qabstractprintdialog.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/qprintengine.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/qprinter.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/qprinter.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/qprinterinfo.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/qprintpreviewdialog.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/qprintpreviewwidget.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/qtprintsupportversion.h \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QElapsedTimer \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QTimeZone \
-  /home/roma/Qt/6.2.4/gcc_64/include/QtCore/QThread
-
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QElapsedTimer:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/qtprintsupportversion.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/qprintpreviewwidget.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/qpagesetupdialog.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/qabstractprintdialog.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/qtprintsupport-config.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/qtprintsupportglobal.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtwidgetsversion.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qwizard.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qundoview.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtreewidget.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtreeview.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtooltip.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtoolbar.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtablewidget.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtableview.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qstyleplugin.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qstylefactory.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qstackedwidget.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qsplitter.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qsplashscreen.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qspinbox.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qsizegrip.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QVariant:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qscrollerproperties.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QPointF:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qscroller.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qscrollbar.h:
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qopenglcontext.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QSurfaceFormat \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qsurfaceformat.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qopengl.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qopenglcontext_platform.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qopenglcontext.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qopenglextrafunctions.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qopenglfunctions.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qopenglfunctions.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpagedpaintdevice.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpagelayout.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpagesize.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpageranges.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpagelayout.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpageranges.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpagesize.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpaintdevice.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpaintdevicewindow.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QWindow \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qwindow.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QPaintDevice \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpaintengine.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpainter.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpalette.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpdfwriter.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpagedpaintdevice.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpen.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpicture.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpixelformat.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpixmapcache.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpointingdevice.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpolygon.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qquaternion.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qrasterwindow.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QPaintDeviceWindow \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qrawfont.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qregion.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qrgb.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qrgba64.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qrgbafloat.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qscreen.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qsessionmanager.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qshortcut.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qstandarditemmodel.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qstatictext.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qstylehints.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qsurface.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qsyntaxhighlighter.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtextobject.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtextcursor.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtextdocument.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtextdocumentfragment.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtextdocumentwriter.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtextformat.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtextlayout.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtextlist.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtextobject.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtextoption.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtexttable.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qundogroup.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qundostack.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qvalidator.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qvector2d.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qvector3d.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qvector4d.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qvectornd.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qwindowdefs.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtguiversion.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/QtWidgets \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/QtWidgetsDepends \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qabstractbutton.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qstyleoption.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qabstractspinbox.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qvalidator.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qslider.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qabstractslider.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qstyle.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtabbar.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtabwidget.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qrubberband.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qframe.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qabstractitemview.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qabstractscrollarea.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qitemselectionmodel.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qabstractscrollarea.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qabstractslider.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qabstractspinbox.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qaccessiblewidget.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qaccessibleobject.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qaction.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QAction \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qactiongroup.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QActionGroup \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qboxlayout.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qlayout.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qlayoutitem.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qboxlayout.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgridlayout.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qbuttongroup.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qcalendarwidget.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qcheckbox.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qabstractbutton.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qcolordialog.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qdialog.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qcolormap.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qcolumnview.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qabstractitemview.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qcombobox.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qcommandlinkbutton.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qpushbutton.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qcommonstyle.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qcompleter.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qdatawidgetmapper.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qdatetimeedit.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qdial.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qdialog.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qdialogbuttonbox.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qdockwidget.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qdrawutil.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qerrormessage.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qfiledialog.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qfileiconprovider.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qabstractfileiconprovider.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qfilesystemmodel.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QFileSystemModel \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qfocusframe.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qfontcombobox.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qcombobox.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qfontdialog.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qformlayout.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/QLayout \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qlayout.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qframe.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgesture.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgesturerecognizer.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicsanchorlayout.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicsitem.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpainterpath.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicslayout.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicslayoutitem.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicseffect.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicsgridlayout.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicsitem.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicsitemanimation.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicslayout.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicslayoutitem.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicslinearlayout.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicsproxywidget.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicswidget.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicsscene.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicssceneevent.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicstransform.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QVector3D \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QMatrix4x4 \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicsview.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qscrollarea.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicsscene.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicswidget.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgridlayout.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgroupbox.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qheaderview.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qinputdialog.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qlineedit.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qitemdelegate.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qitemeditorfactory.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmetaobject.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qkeysequenceedit.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qlabel.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpicture.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qlayoutitem.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qlcdnumber.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qlineedit.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qlistview.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qlistwidget.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qlistview.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qmainwindow.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qmdiarea.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qmdisubwindow.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qmenu.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qmenubar.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qmenu.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qmessagebox.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qplaintextedit.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtextedit.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qabstracttextdocumentlayout.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qprogressbar.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qprogressdialog.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qproxystyle.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/QCommonStyle \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qpushbutton.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qradiobutton.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qrubberband.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qscrollarea.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qscrollbar.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qscroller.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QPointF \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/QScrollerProperties \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qscrollerproperties.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QMetaType \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QVariant \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qshortcut.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QShortcut \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qsizegrip.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qsizepolicy.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qslider.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qspinbox.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qsplashscreen.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qsplitter.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qstackedlayout.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qstackedwidget.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qstatusbar.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qstyle.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qstyleditemdelegate.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qstylefactory.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qstyleoption.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qstylepainter.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qstyleplugin.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qsystemtrayicon.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtabbar.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtableview.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtablewidget.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtableview.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtabwidget.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtextbrowser.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtextedit.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtoolbar.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtoolbox.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtoolbutton.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtooltip.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtreeview.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtreewidget.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtreeview.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtreewidgetitemiterator.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtreewidgetitemiterator.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qundoview.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qwhatsthis.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qwidgetaction.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qwizard.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtwidgetsversion.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/qtprintsupportglobal.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/qtprintsupport-config.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/qabstractprintdialog.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/qtprintsupportglobal.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/qpagesetupdialog.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/qprintdialog.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/qabstractprintdialog.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/qprintengine.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/qprinter.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/qprinter.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/qprinterinfo.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/qprintpreviewdialog.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/qprintpreviewwidget.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/qtprintsupportversion.h \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QElapsedTimer \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QTimeZone \
+  /home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QThread
+
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QTimeZone:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/qtprintsupportversion.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/qprintpreviewdialog.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/qprintdialog.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/qtprintsupportglobal.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qwhatsthis.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtreewidget.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qstyleplugin.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qstylepainter.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/qprinterinfo.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qstyleditemdelegate.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qstatusbar.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qsplitter.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QShortcut:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QVariant:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qscrollerproperties.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qscrollbar.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qproxystyle.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qmessagebox.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qmenubar.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qlistwidget.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qlcdnumber.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qinputdialog.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgroupbox.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicstransform.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicslinearlayout.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicsitemanimation.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicslayoutitem.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qprogressbar.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicslayout.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qstackedlayout.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgesturerecognizer.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qplaintextedit.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgesture.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/qprintpreviewdialog.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qformlayout.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qmenu.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qfocusframe.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qmdisubwindow.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QFileSystemModel:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qmainwindow.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qfilesystemmodel.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qlistwidget.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qdrawutil.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qlistview.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qdockwidget.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qlcdnumber.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qdialogbuttonbox.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qlineedit.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qdatetimeedit.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qheaderview.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qpushbutton.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/QMatrix4x4:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qcolumnview.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicslinearlayout.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qcolormap.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicsitemanimation.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qcalendarwidget.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicsgridlayout.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgridlayout.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicsview.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qlayout.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicseffect.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QActionGroup:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicsitem.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qboxlayout.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgesture.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qactiongroup.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qformlayout.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qabstractitemview.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qfontdialog.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qframe.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qfocusframe.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qstyle.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qfileiconprovider.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qslider.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qfiledialog.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qstyleoption.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qdrawutil.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qabstractitemdelegate.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qdialogbuttonbox.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qabstractbutton.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qdial.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qsizegrip.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qdatetimeedit.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/QtWidgetsDepends:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qcommonstyle.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtguiversion.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qpushbutton.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtextlist.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qdialog.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtextobject.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qcalendarwidget.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qsyntaxhighlighter.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qlayout.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qstylehints.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qactiongroup.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qstandarditemmodel.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qaction.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicseffect.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qlabel.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qsessionmanager.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qrubberband.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpixmapcache.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtoolbutton.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qstackedlayout.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/QtWidgetsDepends:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpdfwriter.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/QtWidgets:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpaintengine.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qundostack.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QPaintDevice:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtextlist.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpagelayout.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qsyntaxhighlighter.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qopenglcontext_platform.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qstylehints.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qcolordialog.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qstatictext.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qvector4d.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qrasterwindow.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qvector3d.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpicture.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qfiledialog.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qdockwidget.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qimagereader.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qcolormap.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qiconengineplugin.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpdfwriter.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qiconengine.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpaintdevicewindow.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtabbar.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpagesize.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qfilesystemmodel.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpagedpaintdevice.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qdrag.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qmdiarea.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qcolortransform.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qopenglfunctions.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qcolorspace.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qopenglextrafunctions.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qsurface.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qopenglcontext.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qwindow.h:
 
-/usr/include/inttypes.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qbackingstore.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qoffscreensurface_platform.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qactiongroup.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qmovie.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qaction.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qquaternion.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtoolbox.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qvector4d.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qaccessibleplugin.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qvector3d.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qaccessibleobject.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qgenericplugin.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qglyphrun.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qfilesystemmodel.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qabstractfileiconprovider.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qsurfaceformat.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QtGuiDepends:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qsurface.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtcoreversion.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qstyle.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qwineventnotifier.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qbackingstore.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qabstracttextdocumentlayout.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qactiongroup.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qwaitcondition.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qaction.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qurlquery.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtextdocument.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qthreadstorage.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qglyphrun.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qxmlstream.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qicon.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtemporaryfile.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qabstractfileiconprovider.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtemporarydir.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/QtGuiDepends:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qundostack.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/QtGui:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstringlistmodel.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qxmlstream.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstringbuilder.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QDeadlineTimer:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qurlquery.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtransposeproxymodel.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtimezone.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtextboundaryfinder.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtemporarydir.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qshortcut.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstringlistmodel.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstringbuilder.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstandardpaths.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QMetaType:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsocketnotifier.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QThread:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/pkuintrin.h:
 
@@ -1545,35 +1519,27 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/clflushoptintrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/adxintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/prfchwintrin.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/9/include/rdseedintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/pconfigintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/vaesintrin.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qfontcombobox.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qfontdatabase.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/xtestintrin.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qwineventnotifier.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/9/include/f16cintrin.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtoolbox.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qrasterwindow.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/fmaintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/shaintrin.h:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qmainwindow.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vnniintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/bmi2intrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmi2intrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vpopcntdqintrin.h:
 
@@ -1583,9 +1549,15 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmiintrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vldqintrin.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qrawfont.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512ifmaintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vlbwintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512dqintrin.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qgenericpluginfactory.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512bwintrin.h:
 
@@ -1593,7 +1565,11 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512cdintrin.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512pfintrin.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx2intrin.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qsplashscreen.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avxintrin.h:
 
@@ -1603,421 +1579,431 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/fxsrintrin.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/9/include/wmmintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/smmintrin.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qmenu.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qmatrix4x4.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/9/include/tmmintrin.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsequentialiterable.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsimd.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qscopedvaluerollback.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsignalmapper.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsavefile.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicsview.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qresource.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsharedmemory.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsettings.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsequentialanimationgroup.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/QLayout:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsavefile.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qreadwritelock.h:
 
 /usr/include/c++/9/bits/random.tcc:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtextbrowser.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512fintrin.h:
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/opt_random.h:
 
+/usr/include/c++/9/random:
+
 /usr/include/c++/9/experimental/source_location:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qslider.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qproperty.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qpropertyprivate.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qprocess.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicswidget.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qplugin.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qpluginloader.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qparallelanimationgroup.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qparallelanimationgroup.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qfileiconprovider.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qdesktopservices.h:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vldqintrin.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qobjectcleanuphandler.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qobjectcleanuphandler.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmimedatabase.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/qtprintsupport-config.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmessageauthenticationcode.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmimetype.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qlockfile.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmetaobject.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512ifmaintrin.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qloggingcategory.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qversionnumber.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qversionnumber.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qjsonobject.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qjsonobject.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtguiversion.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtextdocumentfragment.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qjsondocument.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qjsondocument.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qdrag.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qjsonarray.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qjniobject.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qjniobject.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qjnienvironment.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtablewidget.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qmatrix4x4.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QScopedPointer:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qrunnable.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qjnienvironment.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qopenglcontext.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qitemselectionmodel.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/qpagesetupdialog.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qidentityproxymodel.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qpromise.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtextcursor.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstandardpaths.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qrunnable.h:
 
 /usr/include/c++/9/bits/atomic_futex.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qlibraryinfo.h:
-
 /usr/include/c++/9/future:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qthread.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qthread.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qthreadpool.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qthreadpool.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qresultstore.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfuture_impl.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfutureinterface.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qresultstore.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QStringList:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfutureinterface.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qexception.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfuture.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfileinfo.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfilesystemwatcher.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qvariantanimation.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfileselector.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qloggingcategory.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qeasingcurve.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qdiriterator.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfuturewatcher.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfileinfo.h:
 
 /usr/include/c++/9/bits/fs_ops.h:
 
 /usr/include/c++/9/bits/fs_dir.h:
 
+/usr/include/c++/9/codecvt:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QMetaType:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmimedatabase.h:
+
 /usr/include/c++/9/bits/fs_path.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfiledevice.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfiledevice.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qelapsedtimer.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qelapsedtimer.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qrgbafloat.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcommandlineparser.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcryptographichash.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qicon.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512pfintrin.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcommandlineoption.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qdiriterator.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcollator.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qconcatenatetablesproxymodel.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcborstreamwriter.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcommandlineparser.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcborstreamreader.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtextedit.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcborstream.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcommandlineoption.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qregularexpression.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcollator.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qrandom.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qjsonarray.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcborcommon.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfloat16.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcborvalue.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/quuid.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qsystemtrayicon.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcborcommon.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbytearraymatcher.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qstatusbar.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbuffer.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcborvalue.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbitarray.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qscrollarea.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qassociativeiterable.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbitarray.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qanimationgroup.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qassociativeiterable.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qabstractproxymodel.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qopenglcontext_platform.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qabstractitemmodel.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qanimationgroup.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qabstracteventdispatcher.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/QCommonStyle:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QtCoreDepends:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qabstractproxymodel.h:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/adxintrin.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qabstractitemmodel.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QtCore:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qabstracteventdispatcher.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/QtPrintSupport:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QtCoreDepends:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QtNumeric:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QCache:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QMargins:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfuturesynchronizer.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcache.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QStack:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QCache:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QDebug:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QStack:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QFlags:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QDebug:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qdatetime.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QMultiMap:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qsystemtrayicon.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcalendar.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QDateTime:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QPixmap:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QVector:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qrgbafloat.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsortfilterproxymodel.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QWheelEvent:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/QPixmap:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtextboundaryfinder.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/QMouseEvent:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QSizeF:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/QTransform:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QSize:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QSize:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfuturesynchronizer.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QList:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qurl.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qvectornd.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qradiobutton.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qurl.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qcompleter.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qiodevice.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qiodevice.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qevent.h:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/waitpkgintrin.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qinputdialog.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qevent.h:
 
-/usr/include/c++/9/random:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtranslator.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpainterpath.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpen.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpen.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtextoption.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtextoption.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QPainter:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpainter.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QSharedPointer:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicstransform.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/QPainter:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qgenericmatrix.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QTimer:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QSharedPointer:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/wmmintrin.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qpointer.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QPointer:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QPointer:
 
 /home/roma/Desktop/code_struct_linux_slj/QT/qcustomplot.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicsanchorlayout.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfactoryinterface.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QQueue:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/QWidget:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicssceneevent.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QMutex:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtabbar.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmutex.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QMutex:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QPair:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QObject:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qkeysequenceedit.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QPair:
 
 /home/roma/Desktop/code_struct_linux_slj/QT/curveplotfifo.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qfont.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qsizepolicy.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicslayout.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qabstractnativeeventfilter.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qbrush.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qfont.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/QScrollerProperties:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qbrush.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtreeview.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpalette.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qwidget.h:
 
 /home/roma/Desktop/code_struct_linux_slj/QT/mainwindow.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qguiapplication_platform.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qguiapplication_platform.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qvariant.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qguiapplication.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qproperty.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qregion.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qinputmethod.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/qabstractprintdialog.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qpropertyanimation.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtransform.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qguiapplication.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpixelformat.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qeventpoint.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpixmap.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qline.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qimagewriter.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QSizeF:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qcursor.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpolygon.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcoreapplication_platform.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qmenubar.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QTransform:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpixelformat.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsharedpointer.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qimage.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qconcatenatetablesproxymodel.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qimagewriter.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstringconverter.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qrgba64.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtextstream.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtreewidgetitemiterator.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qoperatingsystemversion.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qrgb.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qabstractanimation.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qbitmap.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qshareddata.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qcursor.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qnativeinterface.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qabstracttextdocumentlayout.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qobject_impl.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qpoint.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmath.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qitemdelegate.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsortfilterproxymodel.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qiconengine.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcontainerinfo.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcborstream.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmetacontainer.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsharedpointer_impl.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qerrormessage.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/qprinterinfo.h:
+/usr/include/string.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtexttable.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsharedpointer.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QThread:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcontiguouscache.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstringconverter.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/QtPrintSupportDepends:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qshareddata_impl.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmap.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qproxystyle.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qnativeinterface.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbindingstorage.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qopenglext.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmath.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmetacontainer.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qiterable.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qiodevicebase.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsize.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qdatastream.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsettings.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QMatrix4x4:
 
 /usr/include/c++/9/bits/fs_fwd.h:
 
 /usr/local/include/opencv4/opencv2/core/cvstd.hpp:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtimezone.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qrect.h:
+
 /usr/include/c++/9/bits/node_handle.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qpropertyprivate.h:
 
 /usr/include/c++/9/filesystem:
 
 /usr/include/c++/9/bits/hashtable_policy.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qlayoutitem.h:
-
 /usr/include/c++/9/shared_mutex:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qshortcut.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QDateTime:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QObject:
 
 /usr/include/c++/9/bits/hashtable.h:
 
-/usr/include/time.h:
-
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qchar.h:
 
 /usr/include/c++/9/bits/std_function.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/rtmintrin.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qopenglextrafunctions.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpalette.h:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/rtmintrin.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qdeadlinetimer.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbytearray.h:
+
 /usr/include/c++/9/algorithm:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qeasingcurve.h:
-
-/usr/include/c++/9/chrono:
 
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qerrormessage.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qfontmetrics.h:
 
 /usr/include/c++/9/bits/invoke.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpointingdevice.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbasictimer.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QWindow:
 
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/local/include/opencv4/opencv2/flann/timer.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstring.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/bmiintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/qprintpreviewwidget.h:
+
 /usr/include/c++/9/climits:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qcolorspace.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QEvent:
-
-/usr/include/c++/9/bits/uniform_int_dist.h:
 
 /usr/local/include/opencv4/opencv2/core.hpp:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QString:
+
+/usr/include/c++/9/bits/uniform_int_dist.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/9/include/xmmintrin.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/qprintengine.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcborstreamwriter.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qopenglfunctions.h:
 
 /usr/include/c++/9/unordered_map:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qshortcut.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/QApplication:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qutf8stringview.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qlistview.h:
+
 /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qpair.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtoolbutton.h:
 
 /usr/local/include/opencv4/opencv2/opencv.hpp:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qcolordialog.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtexttable.h:
 
 /usr/local/include/opencv4/opencv2/core/cuda.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/ctype_base.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qabstractbutton.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/QWindow:
-
 /usr/include/x86_64-linux-gnu/bits/sched.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qgenericatomic.h:
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/error_constants.h:
 
@@ -2031,67 +2017,71 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/include/c++/9/bits/locale_classes.tcc:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qstackedwidget.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/c++/9/stdlib.h:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qclipboard.h:
+
 /usr/local/include/opencv4/opencv2/flann/nn_index.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qoperatingsystemversion.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QPointF:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qimageiohandler.h:
+
+/usr/include/c++/9/variant:
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/ctype_inline.h:
 
 /home/roma/Desktop/code_struct_linux_slj/Part_Period/include/PeriodicTask.hpp:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qrandom.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qitemselectionmodel.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcoreapplication_platform.h:
-
-/usr/include/c++/9/bits/locale_classes.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtextformat.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qfontinfo.h:
-
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qconfig.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qgenericplugin.h:
 
 /usr/include/c++/9/bits/stl_heap.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QSurfaceFormat:
+
+/usr/include/c++/9/bits/alloc_traits.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qabstractscrollarea.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qline.h:
 
 /usr/include/c++/9/ios:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qabstractslider.h:
+/usr/include/c++/9/cstdint:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qiconengineplugin.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qoffscreensurface.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vnnivlintrin.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qrawfont.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qobject.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtextdocumentfragment.h:
-
 /usr/include/c++/9/typeinfo:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qrect.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicsproxywidget.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QPainterPath:
 
 /usr/include/c++/9/sstream:
 
-/usr/include/c++/9/ext/aligned_buffer.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qrubberband.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmimedata.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QQueue:
+
+/usr/include/c++/9/ext/aligned_buffer.h:
 
 /usr/include/x86_64-linux-gnu/sys/time.h:
 
 /usr/include/c++/9/bits/allocated_ptr.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QDeadlineTimer:
 
 /home/roma/Desktop/code_struct_linux_slj/Part_HardwareCom/include/Camera.hpp:
 
@@ -2101,19 +2091,25 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/include/c++/9/array:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QElapsedTimer:
+
 /usr/include/c++/9/tuple:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qgenericmatrix.h:
 
 /usr/include/c++/9/bits/unique_ptr.h:
 
-/usr/include/c++/9/bits/stl_list.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qcheckbox.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qprogressdialog.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmimedata.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbasictimer.h:
+
+/usr/include/c++/9/bits/stl_list.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/emmintrin.h:
 
 /usr/include/c++/9/bits/stl_raw_storage_iter.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qwidget.h:
 
 /usr/include/c++/9/ext/string_conversions.h:
 
@@ -2121,17 +2117,31 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/mm_malloc.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qframe.h:
+/usr/include/inttypes.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qobjectdefs.h:
+
+/usr/include/c++/9/bits/stl_relops.h:
 
 /usr/include/c++/9/memory:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/sgxintrin.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/QtPrintSupportDepends:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qpointer.h:
 
 /usr/include/c++/9/bits/parse_numbers.h:
 
 /usr/include/c++/9/iostream:
 
 /usr/include/c++/9/utility:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtooltip.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QPaintDeviceWindow:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qjsonvalue.h:
 
 /usr/include/c++/9/bits/basic_string.tcc:
 
@@ -2143,83 +2153,83 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qprogressdialog.h:
+
 /usr/include/asm-generic/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
-/usr/include/stdio.h:
-
-/usr/local/include/opencv4/opencv2/core/cvdef.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qcombobox.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qabstractitemview.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qdir.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpaintdevice.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbytearraylist.h:
 
 /usr/include/linux/errno.h:
 
 /usr/include/linux/input-event-codes.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+/usr/include/stdio.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtableview.h:
+
+/usr/local/include/opencv4/opencv2/core/cvdef.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/c++/9/pstl/glue_memory_defs.h:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qdatetime.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsharedpointer_impl.h:
+
 /usr/include/c++/9/bits/stl_iterator_base_types.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfileselector.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qlibrary.h:
 
 /usr/include/stdc-predef.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qcompleter.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcalendar.h:
-
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-
-/usr/include/c++/9/bits/memoryfwd.h:
-
 /usr/local/include/opencv4/opencv2/flann/ground_truth.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/QLayout:
+/usr/include/sched.h:
 
 /usr/include/wctype.h:
 
 /usr/include/c++/9/bits/locale_facets.h:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcoreapplication.h:
+
 /usr/local/include/opencv4/opencv2/opencv_modules.hpp:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qendian.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qplaintextedit.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtguiglobal.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpaintdevicewindow.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qpauseanimation.h:
 
 /usr/include/c++/9/cerrno:
 
 /usr/include/c++/9/bits/string_view.tcc:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qvector.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qstatictext.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtwidgets-config.h:
 
 /usr/local/include/opencv4/opencv2/core/utils/logtag.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/gthr-default.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qjsonvalue.h:
-
 /usr/include/c++/9/tr1/poly_laguerre.tcc:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qinputdevice.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtextedit.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qaccessible.h:
+
+/usr/include/c++/9/bits/locale_classes.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qglobalstatic.h:
 
 /usr/include/c++/9/bits/exception_defines.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtextdocumentwriter.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/cldemoteintrin.h:
 
@@ -2229,7 +2239,9 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/immintrin.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/QtPrintSupport:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qresource.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qrgb.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
@@ -2241,45 +2253,59 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qwidgetaction.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qspinbox.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qvalidator.h:
+
 /usr/include/c++/9/bits/stl_algobase.h:
 
 /usr/local/include/opencv4/opencv2/stitching.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
 /usr/include/c++/9/bits/istream.tcc:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qcommandlinkbutton.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qset.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QVector:
 
 /usr/local/include/opencv4/opencv2/dnn/layer.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qlabel.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qvariant.h:
+
 /usr/include/c++/9/bits/basic_ios.h:
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/c++locale.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsystemsemaphore.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcbormap.h:
 
 /usr/local/include/opencv4/opencv2/core/types.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpagesize.h:
+
 /usr/local/include/opencv4/opencv2/core/affine.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
-/usr/include/c++/9/bits/concept_check.h:
-
-/usr/include/c++/9/pstl/execution_defs.h:
-
-/usr/include/c++/9/bits/specfun.h:
-
 /usr/include/c++/9/optional:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qdatawidgetmapper.h:
+
+/usr/include/endian.h:
 
 /usr/include/stdint.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtextcursor.h:
+/usr/local/include/opencv4/opencv2/stitching/warpers.hpp:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicsitem.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfile.h:
 
 /usr/include/c++/9/bits/unordered_map.h:
 
@@ -2287,53 +2313,95 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qaccessibleplugin.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qlocale.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qkeysequence.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qboxlayout.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qlist.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtabwidget.h:
+/usr/include/c++/9/string_view:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmi2vlintrin.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qset.h:
+
+/usr/include/c++/9/ext/concurrence.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicssceneevent.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qlogging.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/prfchwintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/xsaveoptintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QFlags:
+
+/usr/include/c++/9/bits/exception_ptr.h:
+
+/home/roma/Desktop/code_struct_linux_slj/data_struct/Math_Tool.hpp:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/ioctls.h:
+
+/usr/include/limits.h:
+
+/usr/include/c++/9/limits:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtextlayout.h:
+
+/usr/include/c++/9/ext/new_allocator.h:
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/atomic_word.h:
 
 /usr/include/c++/9/bits/stringfwd.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QString:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qscreen.h:
-
 /usr/include/x86_64-linux-gnu/sys/ttydefaults.h:
 
 /usr/include/c++/9/mutex:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qaction.h:
+
 /usr/include/c++/9/bits/erase_if.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstring.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qpoint.h:
 
 /usr/include/c++/9/bits/vector.tcc:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsemaphore.h:
 
 /usr/local/include/opencv4/opencv2/ml.hpp:
 
 /usr/include/c++/9/bits/uses_allocator.h:
 
-/usr/include/c++/9/tr1/hypergeometric.tcc:
-
-/usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp:
-
 /usr/lib/gcc/x86_64-linux-gnu/9/include/lzcntintrin.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtimer.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcontainerfwd.h:
+
 /usr/include/c++/9/pstl/pstl_config.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qscreen.h:
 
 /usr/include/c++/9/bits/shared_ptr_atomic.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtaggedpointer.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtimeline.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qimage.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcontiguouscache.h:
 
 /usr/include/c++/9/bits/stl_iterator_base_funcs.h:
 
@@ -2341,43 +2409,21 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/include/c++/9/ratio:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qvariantanimation.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcontainertools_impl.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmessageauthenticationcode.h:
+
+/usr/include/c++/9/cstring:
+
+/usr/include/asm-generic/types.h:
 
 /usr/include/asm-generic/bitsperlong.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpageranges.h:
-
-/usr/include/c++/9/bits/exception_ptr.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/xsaveoptintrin.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qplugin.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qabstractanimation.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QScopedPointer:
-
-/usr/include/sched.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qiterator.h:
-
-/usr/include/limits.h:
-
-/usr/include/c++/9/limits:
-
-/usr/include/c++/9/bits/basic_ios.tcc:
-
-/usr/include/c++/9/bits/cxxabi_forced.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/QWidget:
-
-/usr/include/c++/9/ext/new_allocator.h:
-
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicsscene.h:
 
 /home/roma/Desktop/code_struct_linux_slj/Part_Robotrunner/include/IrisTac.hpp:
 
@@ -2385,37 +2431,35 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/include/c++/9/bits/enable_special_members.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/qprintdialog.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qwaitcondition.h:
-
 /usr/include/features.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qcolor.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qbitmap.h:
 
 /usr/local/include/opencv4/opencv2/flann/kmeans_index.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qfilesystemmodel.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qregion.h:
-
 /usr/include/c++/9/bits/codecvt.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qeventloop.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qanystringview.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qinputmethod.h:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicsgridlayout.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QEvent:
 
 /usr/include/c++/9/bits/allocator.h:
 
 /usr/include/c++/9/bits/streambuf.tcc:
 
-/usr/include/c++/9/backward/binders.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtoolbar.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsequentialanimationgroup.h:
+/usr/include/c++/9/backward/binders.h:
 
 /usr/include/c++/9/bits/shared_ptr.h:
 
@@ -2425,15 +2469,21 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/include/locale.h:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qhash.h:
+
 /usr/include/c++/9/bits/hash_bytes.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmi2vlintrin.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstringliteral.h:
 
-/usr/include/c++/9/ext/concurrence.h:
+/usr/include/assert.h:
 
-/usr/include/c++/9/string_view:
+/usr/include/c++/9/tr1/beta_function.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtcore-config.h:
+
+/home/roma/Desktop/code_struct_linux_slj/main.cpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/movdirintrin.h:
 
@@ -2443,27 +2493,27 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/include/c++/9/bits/range_access.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtransform.h:
+/usr/local/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcryptographichash.h:
 
 /usr/include/c++/9/cwchar:
 
 /usr/include/c++/9/bits/move.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsignalmapper.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qmdisubwindow.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qfontcombobox.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qmovie.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qarraydataops.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/usr/local/include/opencv4/opencv2/core/bufferpool.hpp:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstringview.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicslayoutitem.h:
 
 /usr/include/c++/9/bits/functional_hash.h:
 
@@ -2473,49 +2523,35 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/local/include/opencv4/opencv2/stitching/detail/util.hpp:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/local/include/opencv4/opencv2/core/fast_math.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512bitalgintrin.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qpromise.h:
 
 /usr/local/include/opencv4/opencv2/flann/sampling.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qcommandlinkbutton.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qitemdelegate.h:
 
 /usr/local/include/opencv4/opencv2/imgcodecs.hpp:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qfontmetrics.h:
+/usr/local/include/opencv4/opencv2/core/fast_math.hpp:
 
 /usr/include/c++/9/bits/nested_exception.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/usr/include/c++/9/tr1/beta_function.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/local/include/opencv4/opencv2/core/version.hpp:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qidentityproxymodel.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qwindowdefs.h:
 
 /usr/include/c++/9/bits/basic_string.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtcoreversion.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/c++/9/bits/functexcept.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qreadwritelock.h:
 
 /usr/include/c++/9/bits/stl_map.h:
 
@@ -2523,19 +2559,27 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/include/c++/9/bits/stl_iterator.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qdatawidgetmapper.h:
-
 /usr/include/c++/9/debug/debug.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QtCore:
 
 /usr/include/c++/9/bits/predefined_ops.h:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/quuid.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qshareddata_impl.h:
+
 /usr/include/c++/9/cctype:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qscroller.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/include/c++/9/bits/char_traits.h:
 
 /usr/include/c++/9/bits/algorithmfwd.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qdialog.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpagedpaintdevice.h:
 
 /usr/include/c++/9/bits/list.tcc:
 
@@ -2543,17 +2587,19 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/include/x86_64-linux-gnu/bits/fcntl.h:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbindingstorage.h:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/gthr.h:
+
+/usr/include/c++/9/bits/stl_bvector.h:
+
 /usr/include/stdlib.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsemaphore.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qlibraryinfo.h:
 
 /usr/include/c++/9/bits/stl_deque.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtemporaryfile.h:
-
 /usr/include/c++/9/bits/stl_uninitialized.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtextbrowser.h:
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
@@ -2563,23 +2609,15 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/include/alloca.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtextlayout.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcache.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qapplication.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgesturerecognizer.h:
-
 /usr/include/c++/9/cstdlib:
 
 /usr/include/c++/9/bits/stl_tempbuf.h:
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpagelayout.h:
-
 /usr/local/include/opencv4/opencv2/flann/linear_index.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtransposeproxymodel.h:
 
 /usr/include/c++/9/bits/stl_vector.h:
 
@@ -2589,33 +2627,33 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/include/c++/9/bits/locale_facets_nonio.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QtNumeric:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QMultiMap:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtgui-config.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qcombobox.h:
 
 /usr/include/c++/9/exception:
 
 /usr/include/c++/9/bits/cxxabi_init_exception.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qwhatsthis.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfilesystemwatcher.h:
-
 /usr/include/c++/9/bits/localefwd.h:
 
 /usr/include/ctype.h:
 
-/usr/include/c++/9/initializer_list:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qlineedit.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgraphicsproxywidget.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qdesktopservices.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbasicatomic.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpainterpath.h:
+
+/usr/include/c++/9/initializer_list:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/gfniintrin.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmargins.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qheaderview.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicsanchorlayout.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
@@ -2623,17 +2661,7 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/include/math.h:
 
-/usr/include/c++/9/cstdint:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qhashfunctions.h:
-
-/usr/include/c++/9/stdexcept:
-
-/usr/include/c++/9/cstdio:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpaintengine.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtimer.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QAction:
 
 /usr/include/c++/9/debug/assertions.h:
 
@@ -2643,15 +2671,13 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
-/usr/include/features-time64.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qwizard.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qaccessible.h:
-
 /usr/include/c++/9/iosfwd:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpixmapcache.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcompare.h:
 
 /usr/include/c++/9/cwctype:
 
@@ -2659,13 +2685,11 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/include/c++/9/bits/ostream_insert.h:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qbuttongroup.h:
+
 /usr/include/errno.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qoffscreensurface.h:
-
 /usr/include/c++/9/pstl/glue_algorithm_defs.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qsizepolicy.h:
 
 /usr/include/c++/9/type_traits:
 
@@ -2685,65 +2709,45 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QList:
+
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
-/home/roma/Desktop/code_struct_linux_slj/main.cpp:
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qnumeric.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcoreevent.h:
 
 /usr/include/c++/9/ext/alloc_traits.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qfontdatabase.h:
-
 /usr/include/linux/input.h:
 
-/usr/include/c++/9/bits/cpp_type_traits.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtwidgetsglobal.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qwidgetaction.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qvector.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qabstractnativeeventfilter.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qarraydatapointer.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/qprintengine.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vlbwintrin.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcoreapplication.h:
 
 /usr/include/asm-generic/errno-base.h:
 
 /home/roma/Desktop/code_struct_linux_slj/Ctr_DisplacementStageController.hpp:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qaccessibleobject.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstack.h:
 
 /usr/include/c++/9/ext/type_traits.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/clwbintrin.h:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qrgba64.h:
+
 /usr/include/c++/9/bits/std_abs.h:
 
-/usr/include/asm-generic/types.h:
-
-/usr/include/c++/9/cstring:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/QPaintEvent:
-
-/usr/include/string.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/QActionGroup:
-
-/usr/include/c++/9/bits/locale_facets.tcc:
-
-/usr/include/strings.h:
-
-/usr/local/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcoreevent.h:
-
 /usr/include/c++/9/cmath:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qflags.h:
 
 /usr/include/c++/9/bits/unique_lock.h:
 
@@ -2751,11 +2755,13 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/include/c++/9/queue:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpointingdevice.h:
+
 /usr/include/x86_64-linux-gnu/bits/dirent_ext.h:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsystemdetection.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpolygon.h:
 
 /usr/include/c++/9/bits/stl_function.h:
 
@@ -2763,21 +2769,19 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/QSurfaceFormat:
-
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx5124vnniwintrin.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qqueue.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qsurfaceformat.h:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qaccessiblewidget.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qlayoutitem.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
@@ -2787,29 +2791,19 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qclipboard.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/QWheelEvent:
-
 /usr/include/c++/9/tr1/gamma.tcc:
 
 /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qkeysequence.h:
 
 /usr/include/c++/9/clocale:
 
 /usr/include/c++/9/tr1/special_function_util.h:
 
-/usr/include/c++/9/bits/std_mutex.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtPrintSupport/qprinter.h:
 
-/usr/include/c++/9/bits/stl_construct.h:
-
-/usr/include/c++/9/tr1/bessel_function.tcc:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qwindowdefs.h:
 
 /usr/include/c++/9/bits/stl_set.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qitemeditorfactory.h:
 
 /usr/include/c++/9/tr1/riemann_zeta.tcc:
 
@@ -2819,11 +2813,19 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/local/include/opencv4/opencv2/core/utils/logger.defines.hpp:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qprogressbar.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcompilerdetection.h:
+
 /usr/include/c++/9/tr1/exp_integral.tcc:
 
 /usr/include/c++/9/tr1/legendre_function.tcc:
 
 /usr/include/c++/9/bits/random.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpainter.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
@@ -2831,29 +2833,25 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/include/c++/9/tr1/modified_bessel_func.tcc:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtguiglobal.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsimd.h:
-
 /usr/include/c++/9/tr1/poly_hermite.tcc:
 
 /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qcborarray.h:
+
 /usr/local/include/opencv4/opencv2/core/neon_utils.hpp:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstorageinfo.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmargins.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcbormap.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qnamespace.h:
 
 /usr/local/include/opencv4/opencv2/core/check.hpp:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qopengl.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstack.h:
 
 /usr/local/include/opencv4/opencv2/core/traits.hpp:
 
 /usr/local/include/opencv4/opencv2/core/matx.hpp:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qkeysequenceedit.h:
 
 /usr/local/include/opencv4/opencv2/core/matx.inl.hpp:
 
@@ -2861,13 +2859,11 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/cetintrin.h:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsequentialiterable.h:
+
 /usr/include/c++/9/bits/stl_numeric.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfuturewatcher.h:
-
 /usr/include/c++/9/cfloat:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/QPainterPath:
 
 /usr/include/c++/9/bits/atomic_lockfree_defines.h:
 
@@ -2877,19 +2873,17 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/local/include/opencv4/opencv2/core/mat.hpp:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/QShortcut:
+/usr/local/include/opencv4/opencv2/core/bufferpool.hpp:
 
-/usr/local/include/opencv4/opencv2/flann/timer.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QRect:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qatomic.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qconfig.h:
 
 /usr/include/c++/9/string:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/QApplication:
-
 /usr/local/include/opencv4/opencv2/core/mat.inl.hpp:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qshareddata.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qgenericatomic.h:
 
 /usr/include/wchar.h:
 
@@ -2897,23 +2891,23 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/include/c++/9/atomic:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qprocess.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmap.h:
 
 /usr/local/include/opencv4/opencv2/core/persistence.hpp:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qthreadstorage.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qobject.h:
 
 /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp:
 
 /usr/local/include/opencv4/opencv2/core/operations.hpp:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qvalidator.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtextdocument.h:
 
 /usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:
 
-/usr/include/c++/9/codecvt:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qitemeditorfactory.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qatomic_cxx11.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/QtWidgets:
 
 /home/roma/Desktop/code_struct_linux_slj/QT/realtimecurveplot.h:
 
@@ -2923,23 +2917,35 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/local/include/opencv4/opencv2/flann/composite_index.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtranslator.h:
-
 /usr/include/c++/9/bits/sstream.tcc:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qundogroup.h:
 
 /usr/include/c++/9/bits/ostream.tcc:
 
 /usr/local/include/opencv4/opencv2/core/utility.hpp:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qabstractspinbox.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstringlist.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpaintdevice.h:
 
 /usr/local/include/opencv4/opencv2/core/optim.hpp:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcborstreamreader.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QPaintEvent:
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/cpu_defines.h:
 
 /usr/local/include/opencv4/opencv2/core/ovx.hpp:
+
+/usr/include/c++/9/bits/std_mutex.h:
+
+/usr/include/c++/9/bits/stl_construct.h:
+
+/usr/include/c++/9/tr1/bessel_function.tcc:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qrefcount.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpicture.h:
 
 /home/roma/Desktop/code_struct_linux_slj/Part_Robotrunner/include/DMmotor.hpp:
 
@@ -2953,39 +2959,27 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/local/include/opencv4/opencv2/core/utils/logger.hpp:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qabstractitemdelegate.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qscrollarea.h:
 
 /usr/include/c++/9/ostream:
 
 /usr/local/include/opencv4/opencv2/dnn.hpp:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/QFileSystemModel:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qcheckbox.h:
-
 /usr/local/include/opencv4/opencv2/dnn/dict.hpp:
 
 /usr/include/c++/9/map:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/QAction:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcompare.h:
 
 /usr/include/c++/9/bits/stl_multimap.h:
 
 /usr/include/dirent.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QRect:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcontainerinfo.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qquaternion.h:
 
 /usr/local/include/opencv4/opencv2/dnn/dnn.inl.hpp:
 
 /usr/local/include/opencv4/opencv2/flann/result_set.h:
 
 /usr/local/include/opencv4/opencv2/dnn/utils/inference_engine.hpp:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qobject_impl.h:
 
 /usr/local/include/opencv4/opencv2/flann/random.h:
 
@@ -2997,31 +2991,31 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/local/include/opencv4/opencv2/flann/general.h:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qstylefactory.h:
+
 /usr/local/include/opencv4/opencv2/core/base.hpp:
 
 /usr/include/c++/9/condition_variable:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtextobject.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qdial.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qhashfunctions.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtabwidget.h:
 
 /usr/local/include/opencv4/opencv2/flann/matrix.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/QPaintDevice:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QMargins:
 
 /usr/include/c++/9/bits/quoted_string.h:
 
 /usr/local/include/opencv4/opencv2/flann/params.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qstylepainter.h:
-
 /usr/include/c++/9/numeric:
 
 /usr/local/include/opencv4/opencv2/flann/saving.h:
 
-/usr/include/c++/9/set:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qfontdialog.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbuffer.h:
+/usr/include/c++/9/set:
 
 /usr/include/c++/9/bits/stl_multiset.h:
 
@@ -3031,17 +3025,15 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/local/include/opencv4/opencv2/flann/kdtree_index.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/QTimeZone:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbytearrayalgorithms.h:
 
 /usr/local/include/opencv4/opencv2/flann/dynamic_bitset.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qcolumnview.h:
-
 /usr/include/GL/gl.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qgenericpluginfactory.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qoffscreensurface_platform.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qvector2d.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qscopedvaluerollback.h:
 
 /usr/local/include/opencv4/opencv2/flann/dist.h:
 
@@ -3049,11 +3041,9 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/local/include/opencv4/opencv2/objdetect/barcode.hpp:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qmessagebox.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QtGui:
 
 /usr/local/include/opencv4/opencv2/flann/heap.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcborarray.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
@@ -3061,29 +3051,21 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/local/include/opencv4/opencv2/flann/kdtree_single_index.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qshortcut.h:
-
 /usr/local/include/opencv4/opencv2/flann/logger.h:
 
 /usr/local/include/opencv4/opencv2/flann/hierarchical_clustering_index.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtPrintSupport/qprinter.h:
-
 /usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qradiobutton.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qregularexpression.h:
 
 /usr/local/include/opencv4/opencv2/core/cuda_types.hpp:
 
 /usr/local/include/opencv4/opencv2/flann/lsh_table.h:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qpageranges.h:
+
 /usr/include/c++/9/locale:
 
-/usr/include/x86_64-linux-gnu/c++/9/bits/time_members.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qdeadlinetimer.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qscopeguard.h:
 
 /usr/include/pthread.h:
 
@@ -3093,13 +3075,17 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/include/libintl.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qpixmap.h:
-
 /usr/local/include/opencv4/opencv2/stitching/detail/util_inl.hpp:
 
 /home/roma/Desktop/code_struct_linux_slj/IrisTac_Project.hpp:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qundoview.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtaggedpointer.h:
+
 /usr/include/c++/9/bits/locale_facets_nonio.tcc:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qmdiarea.h:
 
 /usr/include/c++/9/bits/locale_conv.h:
 
@@ -3111,55 +3097,41 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/local/include/opencv4/opencv2/flann/index_testing.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfactoryinterface.h:
-
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/local/include/opencv4/opencv2/highgui.hpp:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qscopeguard.h:
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h:
 
 /usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_stat.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qdir.h:
 
 /usr/local/include/opencv4/opencv2/videoio.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/xsavecintrin.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qobjectdefs_impl.h:
-
 /usr/local/include/opencv4/opencv2/imgproc.hpp:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qdebug.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h:
 
 /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QVector3D:
+
 /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp:
 
 /usr/include/x86_64-linux-gnu/asm/ioctls.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qimagereader.h:
-
-/usr/include/c++/9/bits/alloc_traits.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qlist.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qstandarditemmodel.h:
-
 /usr/local/include/opencv4/opencv2/objdetect.hpp:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstringmatcher.h:
 
 /usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp:
 
 /usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qsessionmanager.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qvector2d.h:
 
 /home/roma/Desktop/code_struct_linux_slj/Part_Robotrunner/include/Motor.hpp:
 
@@ -3167,27 +3139,21 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QTimer:
+
 /usr/include/c++/9/bits/ios_base.h:
 
 /usr/include/x86_64-linux-gnu/asm/ioctl.h:
 
 /usr/local/include/opencv4/opencv2/objdetect/face.hpp:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qstyleditemdelegate.h:
-
-/usr/local/include/opencv4/opencv2/photo.hpp:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qtextdocumentwriter.h:
-
 /usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qbuttongroup.h:
 
 /usr/local/include/opencv4/opencv2/core/cuda.inl.hpp:
 
 /usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qundogroup.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qeventloop.h:
 
 /usr/local/include/opencv4/opencv2/stitching/detail/matchers.hpp:
 
@@ -3203,23 +3169,25 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/include/c++/9/bits/deque.tcc:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qwindow.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtextstream.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qhash.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qpropertyanimation.h:
 
 /usr/include/c++/9/pstl/glue_numeric_defs.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtwidgetsversion.h:
 
 /usr/include/c++/9/bits/exception.h:
 
 /usr/local/include/opencv4/opencv2/stitching/detail/seam_finders.hpp:
 
+/usr/include/c++/9/bits/cpp_type_traits.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qscopedpointer.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qaccessiblewidget.h:
+
 /usr/local/include/opencv4/opencv2/stitching/detail/blenders.hpp:
 
 /usr/local/include/opencv4/opencv2/video/tracking.hpp:
-
-/usr/local/include/opencv4/opencv2/video/background_segm.hpp:
 
 /usr/local/include/opencv4/opencv2/core/hal/interface.h:
 
@@ -3227,23 +3195,21 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /home/roma/Desktop/code_struct_linux_slj/Part_Robotrunner/include/RobotRunner.hpp:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qimageiohandler.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qexception.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qaccessiblebridge.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qvectornd.h:
 
 /home/roma/Desktop/code_struct_linux_slj/Part_HardwareCom/include/DM_USB2CAN.hpp:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qstyleoption.h:
 
 /usr/local/include/opencv4/opencv2/flann.hpp:
 
 /home/roma/Desktop/code_struct_linux_slj/Part_HardwareCom/include/UartCommunication.hpp:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qabstractslider.h:
+
 /usr/include/c++/9/streambuf:
 
 /home/roma/Desktop/code_struct_linux_slj/data_struct/CircularQueue.hpp:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qlocale.h:
 
 /home/roma/Desktop/code_struct_linux_slj/Ctr_IrisTacController.hpp:
 
@@ -3251,19 +3217,27 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /home/roma/Desktop/code_struct_linux_slj/KeyboardReader.hpp:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qlockfile.h:
+
 /usr/include/fcntl.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h:
 
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsystemsemaphore.h:
+
 /usr/include/unistd.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfuture.h:
+/usr/include/c++/9/bits/locale_facets.tcc:
+
+/usr/include/strings.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qvarlengtharray.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/QMouseEvent:
 
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
 /usr/include/x86_64-linux-gnu/bits/confname.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmetaobject.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
@@ -3273,162 +3247,176 @@ CMakeFiles/code_struct.dir/main.cpp.o: /home/roma/Desktop/code_struct_linux_slj/
 
 /usr/include/x86_64-linux-gnu/sys/ioctl.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qglobal.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/QCommonStyle:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/QScrollerProperties:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qqueue.h:
+
+/usr/include/c++/9/tr1/hypergeometric.tcc:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsystemdetection.h:
 
 /usr/include/linux/ioctl.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/smmintrin.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qcolor.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtwidgets-config.h:
-
 /usr/include/asm-generic/ioctl.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfuture_impl.h:
 
 /usr/include/linux/types.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qabstractscrollarea.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstorageinfo.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qpluginloader.h:
 
 /usr/local/include/opencv4/opencv2/flann/config.h:
 
 /usr/include/x86_64-linux-gnu/asm/types.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/qcolortransform.h:
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qatomic.h:
 
 /usr/include/asm-generic/int-ll64.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/QPaintDeviceWindow:
-
 /usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsize.h:
 
 /usr/include/c++/9/functional:
 
 /usr/include/linux/posix_types.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qlibrary.h:
-
 /usr/include/linux/stddef.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qtwidgetsglobal.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/vpclmulqdqintrin.h:
 
 /usr/include/libevdev-1.0/libevdev/libevdev.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgridlayout.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstringliteral.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qfontinfo.h:
 
 /usr/local/include/opencv4/opencv2/core/async.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/dirent.h:
 
-/usr/include/endian.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qapplication.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtcore-config.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qglobal.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmimetype.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicswidget.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcompilerdetection.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qendian.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtypeinfo.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qeventpoint.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsysinfo.h:
+/usr/include/x86_64-linux-gnu/c++/9/bits/time_members.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstringtokenizer.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qprocessordetection.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtimeline.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtypeinfo.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qlogging.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsysinfo.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtGui/QVector3D:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qsocketnotifier.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qobjectdefs.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmutex.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qfile.h:
+/usr/include/time.h:
 
-/usr/include/c++/9/variant:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qiodevicebase.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbasicatomic.h:
+/usr/include/c++/9/bits/specfun.h:
 
-/usr/include/c++/9/bits/stl_relops.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qflags.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qglobalstatic.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qatomic_cxx11.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qsharedmemory.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qnumeric.h:
 
-/usr/local/include/opencv4/opencv2/stitching/warpers.hpp:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qtreewidgetitemiterator.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qversiontagging.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qversiontagging.h:
 
-/usr/include/x86_64-linux-gnu/c++/9/bits/gthr.h:
+/usr/include/c++/9/bits/memoryfwd.h:
 
-/usr/include/c++/9/bits/stl_bvector.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtgui-config.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbytearray.h:
+/usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcontainerfwd.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qchar.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qrefcount.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstringview.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/waitpkgintrin.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qtmetamacros.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qnamespace.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/QStringList:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qtmetamacros.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qdebug.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qarraydata.h:
+/usr/local/include/opencv4/opencv2/core/version.hpp:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qpair.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qarraydata.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qarraydatapointer.h:
+/usr/include/c++/9/iterator:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qarraydataops.h:
-
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qcontainertools_impl.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qaccessiblebridge.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/pmmintrin.h:
 
 /usr/include/c++/9/bits/stream_iterator.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qpauseanimation.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qopengl.h:
 
-/usr/include/c++/9/iterator:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qfloat16.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbytearrayalgorithms.h:
+/usr/include/c++/9/bits/basic_ios.tcc:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtWidgets/qgroupbox.h:
+/usr/include/c++/9/bits/cxxabi_forced.h:
 
-/usr/include/assert.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbytearrayview.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbytearrayview.h:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/bmi2intrin.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstringalgorithms.h:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmi2intrin.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qutf8stringview.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qanystringview.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstringlist.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qtextformat.h:
 
-/home/roma/Desktop/code_struct_linux_slj/data_struct/Math_Tool.hpp:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstringtokenizer.h:
 
-/usr/include/x86_64-linux-gnu/bits/ioctls.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qgraphicsscene.h:
 
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+/usr/local/include/opencv4/opencv2/photo.hpp:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qalgorithms.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qobjectdefs_impl.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qstringmatcher.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qiterator.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qprocessordetection.h:
+/usr/include/c++/9/bits/concept_check.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qscopedpointer.h:
+/usr/include/c++/9/pstl/execution_defs.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qbytearraymatcher.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qbytearraylist.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qmetatype.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qopenglext.h:
 
-/home/roma/Qt/6.2.4/gcc_64/include/QtCore/qvarlengtharray.h:
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtGui/qinputdevice.h:
+
+/usr/include/c++/9/stdexcept:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qstringalgorithms.h:
+
+/usr/include/c++/9/cstdio:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qalgorithms.h:
+
+/usr/local/include/opencv4/opencv2/video/background_segm.hpp:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qmetatype.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qcommonstyle.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qdatastream.h:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtWidgets/qabstractspinbox.h:
+
+/usr/include/c++/9/chrono:
+
+/home/roma/APP/QT/6.2.4/gcc_64/include/QtCore/qiterable.h:

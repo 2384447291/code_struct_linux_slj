@@ -89,7 +89,10 @@
         "qtnumeric": "cpp",
         "qmutexlocker": "cpp",
         "filesystem": "cpp",
-        "source_location": "cpp"
+        "source_location": "cpp",
+        "qtprintsupportdepends": "cpp",
+        "qtcore": "cpp",
+        "qtgui": "cpp"
     },
     "qtConfigure.qtKitDir": "/home/roma/Qt/6.2.4/gcc_64"
 }

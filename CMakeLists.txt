@@ -18,7 +18,7 @@ add_subdirectory(Part_Robotrunner)
 
 ############################################设置主函数############################################
 #查找外来库
-set(CMAKE_PREFIX_PATH /home/roma/Qt/6.2.4/gcc_64)
+set(CMAKE_PREFIX_PATH /home/roma/APP/QT/6.2.4/gcc_64)
 # 查找并加载 PkgConfig 模块
 # PkgConfig 是一个用于管理编译过程中库的路径和编译器标志的工具
 # REQUIRED 关键字表示如果 PkgConfig 没有找到，CMake 将停止并报错。

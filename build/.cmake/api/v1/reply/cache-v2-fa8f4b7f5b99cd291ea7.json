@@ -607,7 +607,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "1"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_HOME_DIRECTORY",
@@ -6199,7 +6199,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6CoreTools"
+			"value" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6CoreTools"
 		},
 		{
 			"name" : "Qt6Core_DIR",
@@ -6211,7 +6211,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Core"
+			"value" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Core"
 		},
 		{
 			"name" : "Qt6DBusTools_DIR",
@@ -6223,7 +6223,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6DBusTools"
+			"value" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6DBusTools"
 		},
 		{
 			"name" : "Qt6DBus_DIR",
@@ -6235,7 +6235,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6DBus"
+			"value" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6DBus"
 		},
 		{
 			"name" : "Qt6GuiTools_DIR",
@@ -6247,7 +6247,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6GuiTools"
+			"value" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6GuiTools"
 		},
 		{
 			"name" : "Qt6Gui_DIR",
@@ -6259,7 +6259,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Gui"
+			"value" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Gui"
 		},
 		{
 			"name" : "Qt6PrintSupport_DIR",
@@ -6271,7 +6271,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6PrintSupport"
+			"value" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6PrintSupport"
 		},
 		{
 			"name" : "Qt6WidgetsTools_DIR",
@@ -6283,7 +6283,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6WidgetsTools"
+			"value" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6WidgetsTools"
 		},
 		{
 			"name" : "Qt6Widgets_DIR",
@@ -6295,7 +6295,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Widgets"
+			"value" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Widgets"
 		},
 		{
 			"name" : "Qt6_DIR",
@@ -6307,7 +6307,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6"
+			"value" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6"
 		},
 		{
 			"name" : "Robotrunner_BINARY_DIR",
@@ -6344,6 +6344,18 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/roma/Desktop/code_struct_linux_slj/Part_Robotrunner"
+		},
+		{
+			"name" : "THREADS_HAVE_PTHREAD_ARG",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Result of TRY_COMPILE"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
 		},
 		{
 			"name" : "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE",

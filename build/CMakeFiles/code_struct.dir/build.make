@@ -102,7 +102,7 @@ bin/code_struct: /usr/local/lib/libopencv_photo.so.4.10.0
 bin/code_struct: /usr/local/lib/libopencv_stitching.so.4.10.0
 bin/code_struct: /usr/local/lib/libopencv_video.so.4.10.0
 bin/code_struct: /usr/local/lib/libopencv_videoio.so.4.10.0
-bin/code_struct: /home/roma/Qt/6.2.4/gcc_64/lib/libQt6PrintSupport.so.6.2.4
+bin/code_struct: /home/roma/APP/QT/6.2.4/gcc_64/lib/libQt6PrintSupport.so.6.2.4
 bin/code_struct: /home/roma/Desktop/code_struct_linux_slj/lib/libRealtimeCurvePlot.so
 bin/code_struct: /home/roma/Desktop/code_struct_linux_slj/lib/libPeriod.so
 bin/code_struct: /usr/local/lib/libopencv_imgcodecs.so.4.10.0
@@ -112,9 +112,9 @@ bin/code_struct: /usr/local/lib/libopencv_features2d.so.4.10.0
 bin/code_struct: /usr/local/lib/libopencv_flann.so.4.10.0
 bin/code_struct: /usr/local/lib/libopencv_imgproc.so.4.10.0
 bin/code_struct: /usr/local/lib/libopencv_core.so.4.10.0
-bin/code_struct: /home/roma/Qt/6.2.4/gcc_64/lib/libQt6Widgets.so.6.2.4
-bin/code_struct: /home/roma/Qt/6.2.4/gcc_64/lib/libQt6Gui.so.6.2.4
-bin/code_struct: /home/roma/Qt/6.2.4/gcc_64/lib/libQt6Core.so.6.2.4
+bin/code_struct: /home/roma/APP/QT/6.2.4/gcc_64/lib/libQt6Widgets.so.6.2.4
+bin/code_struct: /home/roma/APP/QT/6.2.4/gcc_64/lib/libQt6Gui.so.6.2.4
+bin/code_struct: /home/roma/APP/QT/6.2.4/gcc_64/lib/libQt6Core.so.6.2.4
 bin/code_struct: /usr/lib/x86_64-linux-gnu/libGLX.so
 bin/code_struct: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 bin/code_struct: CMakeFiles/code_struct.dir/link.txt

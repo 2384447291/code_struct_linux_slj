@@ -782,39 +782,39 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Config.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Config.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtFeature.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtFeature.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -853,31 +853,31 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -886,7 +886,7 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -925,15 +925,15 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -942,43 +942,43 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Config.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Config.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtFeature.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtFeature.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -987,31 +987,31 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1020,7 +1020,7 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1054,36 +1054,15 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/share/cmake-3.25/Modules/CMakeFindDependencyMacro.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1092,35 +1071,19 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1129,51 +1092,35 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1182,43 +1129,96 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Config.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtFeature.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.25/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtFeature.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1227,31 +1227,31 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1260,7 +1260,7 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1294,7 +1294,7 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1313,15 +1313,15 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1330,39 +1330,39 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1371,19 +1371,19 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1392,43 +1392,43 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Config.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Config.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtFeature.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtFeature.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1437,31 +1437,31 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1470,7 +1470,7 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1504,7 +1504,7 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1533,7 +1533,7 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1567,7 +1567,7 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1596,48 +1596,15 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/share/cmake-3.25/Modules/CMakeFindDependencyMacro.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1646,43 +1613,76 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Config.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.25/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtFeature.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtFeature.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1691,31 +1691,31 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1724,7 +1724,7 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1758,15 +1758,15 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1775,43 +1775,43 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1825,39 +1825,39 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1866,39 +1866,39 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Config.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Config.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtFeature.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtFeature.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1907,31 +1907,31 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1940,7 +1940,7 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1974,15 +1974,15 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersion.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersion.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersionImpl.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersionImpl.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfig.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfig.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1991,43 +1991,43 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6PrintSupport/Qt6PrintSupportDependencies.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6PrintSupport/Qt6PrintSupportDependencies.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Config.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Config.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtFeature.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtFeature.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -2036,31 +2036,31 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -2069,7 +2069,7 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -2103,19 +2103,19 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets-relwithdebinfo.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets-relwithdebinfo.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6PrintSupport/Qt6PrintSupportAdditionalTargetInfo.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6PrintSupport/Qt6PrintSupportAdditionalTargetInfo.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/roma/Qt/6.2.4/gcc_64/lib/cmake/Qt6PrintSupport/Qt6PrintSupportVersionlessTargets.cmake"
+			"path" : "/home/roma/APP/QT/6.2.4/gcc_64/lib/cmake/Qt6PrintSupport/Qt6PrintSupportVersionlessTargets.cmake"
 		},
 		{
 			"path" : "Part_Period/CMakeLists.txt"

@@ -7,14 +7,14 @@ void Camera::init() {
         throw std::runtime_error("Error: Camera not opened!");
     }
     camera.set(cv::CAP_PROP_FPS, 30);
-	auto i = camera.get(cv::CAP_PROP_AUTO_EXPOSURE);
-	std::cout << "设置之前曝光为：" << i << std::endl;
+	// auto i = camera.get(cv::CAP_PROP_EXPOSURE);
+	// std::cout << "设置之前曝光为：" << i << std::endl;
 
-	camera.set(cv::CAP_PROP_AUTO_EXPOSURE, 0.25); 
-    camera.set(cv::CAP_PROP_EXPOSURE, -2);
+	camera.set(cv::CAP_PROP_AUTO_EXPOSURE, 1);//1为手动曝光
+    camera.set(cv::CAP_PROP_EXPOSURE, 5000);//值域1-5000
 
-	i = camera.get(cv::CAP_PROP_AUTO_EXPOSURE);
-	std::cout << "现在曝光为：" << i << std::endl;
+	// i = camera.get(cv::CAP_PROP_EXPOSURE);
+	// std::cout << "现在曝光为：" << i << std::endl;
 }
 
 void Camera::run() {
